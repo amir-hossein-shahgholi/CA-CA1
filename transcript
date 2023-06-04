@@ -1,0 +1,7997 @@
+# Reading pref.tcl
+# Loading project CA1_ca1
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 1 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 1 error.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 1 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 1 error.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 10:53:06 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+quit -sim
+quit -sim
+# End time: 10:53:28 on Apr 12,2022, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 9
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 10:54:04 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 10:55:50 on Apr 12,2022, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 6
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 10:56:35 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# ssxx      0
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 10:57:54 on Apr 12,2022, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 5
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 10:59:10 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# n =          0
+# n =          1
+# n =          2
+# n =          3
+# n =          4
+# n =          5
+# n =          6
+# n =          7
+# n =          8
+# n =          9
+# n =         10
+# n =         11
+# n =         12
+# n =         13
+# n =         14
+# n =         15
+# n =         16
+# n =         17
+# n =         18
+# n =         19
+# n =         20
+# n =         21
+# n =         22
+# n =         23
+# n =         24
+# n =         25
+# n =         26
+# n =         27
+# n =         28
+# n =         29
+# n =         30
+# n =         31
+# n =         32
+# n =         33
+# n =         34
+# n =         35
+# n =         36
+# n =         37
+# n =         38
+# n =         39
+# n =         40
+# n =         41
+# n =         42
+# n =         43
+# n =         44
+# n =         45
+# n =         46
+# n =         47
+# n =         48
+# n =         49
+# n =         50
+# n =         51
+# n =         52
+# n =         53
+# n =         54
+# n =         55
+# n =         56
+# n =         57
+# n =         58
+# n =         59
+# n =         60
+# n =         61
+# n =         62
+# n =         63
+# n =         64
+# n =         65
+# n =         66
+# n =         67
+# n =         68
+# n =         69
+# n =         70
+# n =         71
+# n =         72
+# n =         73
+# n =         74
+# n =         75
+# n =         76
+# n =         77
+# n =         78
+# n =         79
+# n =         80
+# n =         81
+# n =         82
+# n =         83
+# n =         84
+# n =         85
+# n =         86
+# n =         87
+# n =         88
+# n =         89
+# n =         90
+# n =         91
+# n =         92
+# n =         93
+# n =         94
+# n =         95
+# n =         96
+# n =         97
+# n =         98
+# n =         99
+# n =        100
+# n =        101
+# n =        102
+# n =        103
+# n =        104
+# n =        105
+# n =        106
+# n =        107
+# n =        108
+# n =        109
+# n =        110
+# n =        111
+# n =        112
+# n =        113
+# n =        114
+# n =        115
+# n =        116
+# n =        117
+# n =        118
+# n =        119
+# n =        120
+# n =        121
+# n =        122
+# n =        123
+# n =        124
+# n =        125
+# n =        126
+# n =        127
+# n =        128
+# n =        129
+# n =        130
+# n =        131
+# n =        132
+# n =        133
+# n =        134
+# n =        135
+# n =        136
+# n =        137
+# n =        138
+# n =        139
+# n =        140
+# n =        141
+# n =        142
+# n =        143
+# n =        144
+# n =        145
+# n =        146
+# n =        147
+# n =        148
+# n =        149
+# n =        150
+# n =        151
+# ssxx      0
+# n =        152
+# ssxx      x
+# n =        153
+# ssxx      x
+# n =        154
+# ssxx      x
+# n =        155
+# ssxx      x
+# n =        156
+# ssxx      x
+# n =        157
+# ssxx      x
+# n =        158
+# ssxx      x
+# n =        159
+# ssxx      x
+# n =        160
+# ssxx      x
+# n =        161
+# ssxx      x
+# n =        162
+# ssxx      x
+# n =        163
+# ssxx      x
+# n =        164
+# ssxx      x
+# n =        165
+# ssxx      x
+# n =        166
+# ssxx      x
+# n =        167
+# ssxx      x
+# n =        168
+# ssxx      x
+# n =        169
+# ssxx      x
+# n =        170
+# ssxx      x
+# n =        171
+# ssxx      x
+# n =        172
+# ssxx      x
+# n =        173
+# ssxx      x
+# n =        174
+# ssxx      x
+# n =        175
+# ssxx      x
+# n =        176
+# ssxx      x
+# n =        177
+# ssxx      x
+# n =        178
+# ssxx      x
+# n =        179
+# ssxx      x
+# n =        180
+# ssxx      x
+# n =        181
+# ssxx      x
+# n =        182
+# ssxx      x
+# n =        183
+# ssxx      x
+# n =        184
+# ssxx      x
+# n =        185
+# ssxx      x
+# n =        186
+# ssxx      x
+# n =        187
+# ssxx      x
+# n =        188
+# ssxx      x
+# n =        189
+# ssxx      x
+# n =        190
+# ssxx      x
+# n =        191
+# ssxx      x
+# n =        192
+# ssxx      x
+# n =        193
+# ssxx      x
+# n =        194
+# ssxx      x
+# n =        195
+# ssxx      x
+# n =        196
+# ssxx      x
+# n =        197
+# ssxx      x
+# n =        198
+# ssxx      x
+# n =        199
+# ssxx      x
+# n =        200
+# ssxx      x
+# n =        201
+# ssxx      x
+# n =        202
+# ssxx      x
+# n =        203
+# ssxx      x
+# n =        204
+# ssxx      x
+# n =        205
+# ssxx      x
+# n =        206
+# ssxx      x
+# n =        207
+# ssxx      x
+# n =        208
+# ssxx      x
+# n =        209
+# ssxx      x
+# n =        210
+# ssxx      x
+# n =        211
+# ssxx      x
+# n =        212
+# ssxx      x
+# n =        213
+# ssxx      x
+# n =        214
+# ssxx      x
+# n =        215
+# ssxx      x
+# n =        216
+# ssxx      x
+# n =        217
+# ssxx      x
+# n =        218
+# ssxx      x
+# n =        219
+# ssxx      x
+# n =        220
+# ssxx      x
+# n =        221
+# ssxx      x
+# n =        222
+# ssxx      x
+# n =        223
+# ssxx      x
+# n =        224
+# ssxx      x
+# n =        225
+# ssxx      x
+# n =        226
+# ssxx      x
+# n =        227
+# ssxx      x
+# n =        228
+# ssxx      x
+# n =        229
+# ssxx      x
+# n =        230
+# ssxx      x
+# n =        231
+# ssxx      x
+# n =        232
+# ssxx      x
+# n =        233
+# ssxx      x
+# n =        234
+# ssxx      x
+# n =        235
+# ssxx      x
+# n =        236
+# ssxx      x
+# n =        237
+# ssxx      x
+# n =        238
+# ssxx      x
+# n =        239
+# ssxx      x
+# n =        240
+# ssxx      x
+# n =        241
+# ssxx      x
+# n =        242
+# ssxx      x
+# n =        243
+# ssxx      x
+# n =        244
+# ssxx      x
+# n =        245
+# ssxx      x
+# n =        246
+# ssxx      x
+# n =        247
+# ssxx      x
+# n =        248
+# ssxx      x
+# n =        249
+# ssxx      x
+# n =        250
+# ssxx      x
+# n =        251
+# ssxx      x
+# n =        252
+# ssxx      x
+# n =        253
+# ssxx      x
+# n =        254
+# ssxx      x
+# n =        255
+# ssxx      x
+# n =        256
+# ssxx      x
+# n =        257
+# ssxx      x
+# n =        258
+# ssxx      x
+# n =        259
+# ssxx      x
+# n =        260
+# ssxx      x
+# n =        261
+# ssxx      x
+# n =        262
+# ssxx      x
+# n =        263
+# ssxx      x
+# n =        264
+# ssxx      x
+# n =        265
+# ssxx      x
+# n =        266
+# ssxx      x
+# n =        267
+# ssxx      x
+# n =        268
+# ssxx      x
+# n =        269
+# ssxx      x
+# n =        270
+# ssxx      x
+# n =        271
+# ssxx      x
+# n =        272
+# ssxx      x
+# n =        273
+# ssxx      x
+# n =        274
+# ssxx      x
+# n =        275
+# ssxx      x
+# n =        276
+# ssxx      x
+# n =        277
+# ssxx      x
+# n =        278
+# ssxx      x
+# n =        279
+# ssxx      x
+# n =        280
+# ssxx      x
+# n =        281
+# ssxx      x
+# n =        282
+# ssxx      x
+# n =        283
+# ssxx      x
+# n =        284
+# ssxx      x
+# n =        285
+# ssxx      x
+# n =        286
+# ssxx      x
+# n =        287
+# ssxx      x
+# n =        288
+# ssxx      x
+# n =        289
+# ssxx      x
+# n =        290
+# ssxx      x
+# n =        291
+# ssxx      x
+# n =        292
+# ssxx      x
+# n =        293
+# ssxx      x
+# n =        294
+# ssxx      x
+# n =        295
+# ssxx      x
+# n =        296
+# ssxx      x
+# n =        297
+# ssxx      x
+# n =        298
+# ssxx      x
+# n =        299
+# ssxx      x
+# n =        300
+# ssxx      x
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 11:00:02 on Apr 12,2022, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 5
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 11:01:30 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# ssxx      0
+# ssxx  52004
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 11:03:31 on Apr 12,2022, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 5
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 4 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 4 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 2 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 2 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 11:09:18 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# ssxx      0
+# ssxx  52004
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 11:09:58 on Apr 12,2022, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 7
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 3 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 3 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 2 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 2 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 6 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 6 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 12 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 12 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 6 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 6 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 4 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 4 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 6 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 6 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 6 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 6 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 6 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 6 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 6 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 6 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 6 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 6 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 6 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 6 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 6 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 6 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 6 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 6 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 11:59:21 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Load canceled
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+run -all
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 12:08:28 on Apr 12,2022, Elapsed time: 0:09:07
+# Errors: 0, Warnings: 20
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 12:13:44 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+run -all
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+quit -sim
+# End time: 12:14:44 on Apr 12,2022, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 6
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 12:29:43 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx         x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ssxx      x
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 12:30:46 on Apr 12,2022, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 5
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 1 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 1 error.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 1 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 1 error.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 1 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 1 error.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 2 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 2 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 2 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 2 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 2 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 2 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v failed with 13 errors.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 1 failed with 13 errors.
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 12:45:17 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# ssxx0
+# ssxx2149156
+# ssxx5236390941.763599
+# ssxx10702488302.7272
+# ssxx16169768656.6508
+# ssxx20102696551.2144
+# ssxx25066612030.818
+# ssxx29327706593.0616
+# ssxx34024349840.9052
+# ssxx39448828480.02879
+# ssxx44374209662.7524
+# ssxx48188020609.476
+# ssxx53587045910.8396
+# ssxx57227968751.6432
+# ssxx61464033786.84679
+# ssxx65414289529.97039
+# ssxx68949669346.05399
+# ssxx72855301870.45758
+# ssxx77835294099.74118
+# ssxx82252765371.42477
+# ssxx84059105472.54837
+# ssxx87818887319.59197
+# ssxx90956126161.91556
+# ssxx94577164007.91916
+# ssxx97578785951.36276
+# ssxx99718871623.68636
+# ssxx102126055480.25
+# ssxx104531767670.0136
+# ssxx106630970657.0571
+# ssxx108640435965.3008
+# ssxx110592843863.6243
+# ssxx112177764361.9479
+# ssxx114056125162.7515
+# ssxx115973782098.6751
+# ssxx117495098795.1587
+# ssxx119479182989.3223
+# ssxx120983153604.0459
+# ssxx122766362655.4096
+# ssxx124605062201.0132
+# ssxx125580441309.7368
+# ssxx127323592320.8604
+# ssxx128674526756.464
+# ssxx130093936902.4676
+# ssxx131143635991.3512
+# ssxx132011707895.9148
+# ssxx132996416061.5184
+# ssxx133917906440.242
+# ssxx135347053392.7256
+# ssxx136238198878.9692
+# ssxx137018119559.2128
+# ssxx137269819688.0164
+# ssxx137899380979.94
+# ssxx138546425001.3836
+# ssxx138849291498.7472
+# ssxx139174014061.1508
+# ssxx139640792678.7544
+# ssxx140425972482.278
+# ssxx140901738443.7216
+# ssxx141045571931.8852
+# ssxx141164797803.1688
+# ssxx141349922671.8924
+# ssxx141471916022.296
+# ssxx141636090528.8596
+# ssxx141681370777.3432
+# ssxx141925950975.0268
+# ssxx141998900680.9504
+# ssxx141999022523.834
+# ssxx142045385821.9176
+# ssxx142254826342.5612
+# ssxx142410952866.9648
+# ssxx142413396023.5284
+# ssxx142416507507.852
+# ssxx142778879088.1756
+# ssxx142807834894.8992
+# ssxx142932381834.1028
+# ssxx142955334940.1864
+# ssxx142973729946.51
+# ssxx142976101361.7136
+# ssxx142994547871.3172
+# ssxx143022058525.7208
+# ssxx143072396699.3244
+# ssxx143086146408.288
+# ssxx143125295706.4516
+# ssxx143459415353.9752
+# ssxx143585369736.2188
+# ssxx143797390709.9024
+# ssxx143869622691.026
+# ssxx143934247247.3496
+# ssxx144121935603.3532
+# ssxx144387786671.7568
+# ssxx144671538675.3604
+# ssxx144855926286.884
+# ssxx145099097251.6076
+# ssxx145635294808.8912
+# ssxx145848511460.6548
+# ssxx145987207776.4184
+# ssxx146177508146.022
+# ssxx146379629528.9856
+# ssxx146841876948.9892
+# ssxx147246970662.7528
+# ssxx147874770792.0364
+# ssxx148712117288.6
+# ssxx149389935389.4036
+# ssxx150917880619.7272
+# ssxx152112892232.4508
+# ssxx153076370107.6545
+# ssxx153824991145.338
+# ssxx155126536745.1017
+# ssxx156201126772.3853
+# ssxx157789702438.5489
+# ssxx159405818015.4325
+# ssxx160375264775.1161
+# ssxx161439325260.7197
+# ssxx162566736160.4833
+# ssxx164341162481.6069
+# ssxx165955027589.8505
+# ssxx167526193877.2941
+# ssxx169576014069.2977
+# ssxx171617331408.5813
+# ssxx174274830823.4649
+# ssxx175958779195.1485
+# ssxx179307246207.2321
+# ssxx180776277191.8756
+# ssxx182873453721.4793
+# ssxx185540963427.7228
+# ssxx189063734914.3665
+# ssxx190900623652.2901
+# ssxx193444609443.7337
+# ssxx196381050662.0573
+# ssxx199940001152.2209
+# ssxx202636200546.2245
+# ssxx205503689521.3481
+# ssxx208198227573.2717
+# ssxx211268378205.1953
+# ssxx215763134009.0389
+# ssxx220058748825.1225
+# ssxx223800877413.3661
+# ssxx227796753196.8097
+# ssxx232084637662.9733
+# ssxx236145505640.9769
+# ssxx239944864565.3005
+# ssxx244568448414.6641
+# ssxx248210322276.9077
+# ssxx253634488640.0313
+# ssxx257551864050.3549
+# ssxx263834794763.5585
+# ssxx269189805666.2021
+# ssxx275162149353.4857
+# ssxx280899596779.9693
+# ssxx286616913475.4129
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 12:55:27 on Apr 12,2022, Elapsed time: 0:10:10
+# Errors: 0, Warnings: 13
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 13:01:21 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# ssxx0
+# ssxx2149156
+# ssxx5236390941.763599
+# ssxx10702488302.7272
+# ssxx16169768656.6508
+# ssxx20102696551.2144
+# ssxx25066612030.818
+# ssxx29327706593.0616
+# ssxx34024349840.9052
+# ssxx39448828480.02879
+# ssxx44374209662.7524
+# ssxx48188020609.476
+# ssxx53587045910.8396
+# ssxx57227968751.6432
+# ssxx61464033786.84679
+# ssxx65414289529.97039
+# ssxx68949669346.05399
+# ssxx72855301870.45758
+# ssxx77835294099.74118
+# ssxx82252765371.42477
+# ssxx84059105472.54837
+# ssxx87818887319.59197
+# ssxx90956126161.91556
+# ssxx94577164007.91916
+# ssxx97578785951.36276
+# ssxx99718871623.68636
+# ssxx102126055480.25
+# ssxx104531767670.0136
+# ssxx106630970657.0571
+# ssxx108640435965.3008
+# ssxx110592843863.6243
+# ssxx112177764361.9479
+# ssxx114056125162.7515
+# ssxx115973782098.6751
+# ssxx117495098795.1587
+# ssxx119479182989.3223
+# ssxx120983153604.0459
+# ssxx122766362655.4096
+# ssxx124605062201.0132
+# ssxx125580441309.7368
+# ssxx127323592320.8604
+# ssxx128674526756.464
+# ssxx130093936902.4676
+# ssxx131143635991.3512
+# ssxx132011707895.9148
+# ssxx132996416061.5184
+# ssxx133917906440.242
+# ssxx135347053392.7256
+# ssxx136238198878.9692
+# ssxx137018119559.2128
+# ssxx137269819688.0164
+# ssxx137899380979.94
+# ssxx138546425001.3836
+# ssxx138849291498.7472
+# ssxx139174014061.1508
+# ssxx139640792678.7544
+# ssxx140425972482.278
+# ssxx140901738443.7216
+# ssxx141045571931.8852
+# ssxx141164797803.1688
+# ssxx141349922671.8924
+# ssxx141471916022.296
+# ssxx141636090528.8596
+# ssxx141681370777.3432
+# ssxx141925950975.0268
+# ssxx141998900680.9504
+# ssxx141999022523.834
+# ssxx142045385821.9176
+# ssxx142254826342.5612
+# ssxx142410952866.9648
+# ssxx142413396023.5284
+# ssxx142416507507.852
+# ssxx142778879088.1756
+# ssxx142807834894.8992
+# ssxx142932381834.1028
+# ssxx142955334940.1864
+# ssxx142973729946.51
+# ssxx142976101361.7136
+# ssxx142994547871.3172
+# ssxx143022058525.7208
+# ssxx143072396699.3244
+# ssxx143086146408.288
+# ssxx143125295706.4516
+# ssxx143459415353.9752
+# ssxx143585369736.2188
+# ssxx143797390709.9024
+# ssxx143869622691.026
+# ssxx143934247247.3496
+# ssxx144121935603.3532
+# ssxx144387786671.7568
+# ssxx144671538675.3604
+# ssxx144855926286.884
+# ssxx145099097251.6076
+# ssxx145635294808.8912
+# ssxx145848511460.6548
+# ssxx145987207776.4184
+# ssxx146177508146.022
+# ssxx146379629528.9856
+# ssxx146841876948.9892
+# ssxx147246970662.7528
+# ssxx147874770792.0364
+# ssxx148712117288.6
+# ssxx149389935389.4036
+# ssxx150917880619.7272
+# ssxx152112892232.4508
+# ssxx153076370107.6545
+# ssxx153824991145.338
+# ssxx155126536745.1017
+# ssxx156201126772.3853
+# ssxx157789702438.5489
+# ssxx159405818015.4325
+# ssxx160375264775.1161
+# ssxx161439325260.7197
+# ssxx162566736160.4833
+# ssxx164341162481.6069
+# ssxx165955027589.8505
+# ssxx167526193877.2941
+# ssxx169576014069.2977
+# ssxx171617331408.5813
+# ssxx174274830823.4649
+# ssxx175958779195.1485
+# ssxx179307246207.2321
+# ssxx180776277191.8756
+# ssxx182873453721.4793
+# ssxx185540963427.7228
+# ssxx189063734914.3665
+# ssxx190900623652.2901
+# ssxx193444609443.7337
+# ssxx196381050662.0573
+# ssxx199940001152.2209
+# ssxx202636200546.2245
+# ssxx205503689521.3481
+# ssxx208198227573.2717
+# ssxx211268378205.1953
+# ssxx215763134009.0389
+# ssxx220058748825.1225
+# ssxx223800877413.3661
+# ssxx227796753196.8097
+# ssxx232084637662.9733
+# ssxx236145505640.9769
+# ssxx239944864565.3005
+# ssxx244568448414.6641
+# ssxx248210322276.9077
+# ssxx253634488640.0313
+# ssxx257551864050.3549
+# ssxx263834794763.5585
+# ssxx269189805666.2021
+# ssxx275162149353.4857
+# ssxx280899596779.9693
+# ssxx286616913475.4129
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 13:03:42 on Apr 12,2022, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 4
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 13:04:56 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# ssxx0
+# ssxy0
+# ssxx2149156
+# ssxy488178
+# ssxx5236390941.763599
+# ssxy7767781687.444799
+# ssxx10702488302.7272
+# ssxy15610458740.7696
+# ssxx16169768656.6508
+# ssxy23969871194.3544
+# ssxx20102696551.2144
+# ssxy31112517467.0392
+# ssxx25066612030.818
+# ssxy38635855320.364
+# ssxx29327706593.0616
+# ssxy45822277354.9888
+# ssxx34024349840.9052
+# ssxy52741896403.6936
+# ssxx39448828480.02879
+# ssxy59937831810.95841
+# ssxx44374209662.7524
+# ssxy67358080899.2432
+# ssxx48188020609.476
+# ssxy73569078062.108
+# ssxx53587045910.8396
+# ssxy80017665442.0728
+# ssxx57227968751.6432
+# ssxy85789438368.51759
+# ssxx61464033786.84679
+# ssxy92399482268.92239
+# ssxx65414289529.97039
+# ssxy97995242870.9272
+# ssxx68949669346.05399
+# ssxy103469286527.492
+# ssxx72855301870.45758
+# ssxy108731813044.5168
+# ssxx77835294099.74118
+# ssxy114444948649.5216
+# ssxx82252765371.42477
+# ssxy119475153419.6264
+# ssxx84059105472.54837
+# ssxy122464936386.4712
+# ssxx87818887319.59197
+# ssxy127790879806.376
+# ssxx90956126161.91556
+# ssxy132535077080.3208
+# ssxx94577164007.91916
+# ssxy137420273790.3056
+# ssxx97578785951.36276
+# ssxy141628033955.3904
+# ssxx99718871623.68636
+# ssxy144932465172.0752
+# ssxx102126055480.25
+# ssxy148852852906.42
+# ssxx104531767670.0136
+# ssxy152447392955.4248
+# ssxx106630970657.0571
+# ssxy155741918137.1496
+# ssxx108640435965.3008
+# ssxy159204677627.1344
+# ssxx110592843863.6243
+# ssxy162461061225.8392
+# ssxx112177764361.9479
+# ssxy165097551859.224
+# ssxx114056125162.7515
+# ssxy168143061342.6288
+# ssxx115973782098.6751
+# ssxy170919199094.6136
+# ssxx117495098795.1587
+# ssxy173314636559.8384
+# ssxx119479182989.3223
+# ssxy176453366846.1832
+# ssxx120983153604.0459
+# ssxy178837513174.288
+# ssxx122766362655.4096
+# ssxy181223106346.1128
+# ssxx124605062201.0132
+# ssxy184022706013.8576
+# ssxx125580441309.7368
+# ssxy185710684843.2224
+# ssxx127323592320.8604
+# ssxy188309399410.8872
+# ssxx128674526756.464
+# ssxy190416569941.092
+# ssxx130093936902.4676
+# ssxy192275874841.1568
+# ssxx131143635991.3512
+# ssxy193722430663.9616
+# ssxx132011707895.9148
+# ssxy194814510802.9664
+# ssxx132996416061.5184
+# ssxy196534736822.5112
+# ssxx133917906440.242
+# ssxy198301249450.576
+# ssxx135347053392.7256
+# ssxy199819992781.3408
+# ssxx136238198878.9692
+# ssxy200843592454.8456
+# ssxx137018119559.2128
+# ssxy202030327176.6504
+# ssxx137269819688.0164
+# ssxy202593633266.2152
+# ssxx137899380979.94
+# ssxy203657822401.2799
+# ssxx138546425001.3836
+# ssxy204365788690.1647
+# ssxx138849291498.7472
+# ssxy204872306143.7095
+# ssxx139174014061.1508
+# ssxy205385572954.2943
+# ssxx139640792678.7544
+# ssxy206150977143.3192
+# ssxx140425972482.278
+# ssxy206870308016.264
+# ssxx140901738443.7216
+# ssxy207447129687.9287
+# ssxx141045571931.8852
+# ssxy207800985882.6736
+# ssxx141164797803.1688
+# ssxy207946723450.0183
+# ssxx141349922671.8924
+# ssxy208117276500.6032
+# ssxx141471916022.296
+# ssxy208365448837.348
+# ssxx141636090528.8596
+# ssxy208597622509.5928
+# ssxx141681370777.3432
+# ssxy208762612870.0576
+# ssxx141925950975.0268
+# ssxy209022504020.2624
+# ssxx141998900680.9504
+# ssxy209173117755.5872
+# ssxx141999022523.834
+# ssxy209175127670.992
+# ssxx142045385821.9176
+# ssxy209229267051.7768
+# ssxx142254826342.5612
+# ssxy209587929272.5216
+# ssxx142410952866.9648
+# ssxy209696262442.3264
+# ssxx142413396023.5284
+# ssxy209715167778.0712
+# ssxx142416507507.852
+# ssxy209694069150.616
+# ssxx142778879088.1756
+# ssxy210006147841.1408
+# ssxx142807834894.8992
+# ssxy209992082180.7856
+# ssxx142932381834.1028
+# ssxy210072848427.8104
+# ssxx142955334940.1864
+# ssxy210105785757.0352
+# ssxx142973729946.51
+# ssxy210092545456.14
+# ssxx142976101361.7136
+# ssxy210093028874.1048
+# ssxx142994547871.3172
+# ssxy210113932003.4896
+# ssxx143022058525.7208
+# ssxy210112490031.5944
+# ssxx143072396699.3244
+# ssxy210129041959.0192
+# ssxx143086146408.288
+# ssxy210091082845.444
+# ssxx143125295706.4516
+# ssxy210124882334.7688
+# ssxx143459415353.9752
+# ssxy210431784275.0536
+# ssxx143585369736.2188
+# ssxy210604538092.6384
+# ssxx143797390709.9024
+# ssxy210761955250.1032
+# ssxx143869622691.026
+# ssxy210896195327.488
+# ssxx143934247247.3496
+# ssxy211052367171.7528
+# ssxx144121935603.3532
+# ssxy211277730088.7576
+# ssxx144387786671.7568
+# ssxy211623426122.2424
+# ssxx144671538675.3604
+# ssxy212146258022.3672
+# ssxx144855926286.884
+# ssxy212464588026.472
+# ssxx145099097251.6076
+# ssxy212929067875.7968
+# ssxx145635294808.8912
+# ssxy213692308961.6616
+# ssxx145848511460.6548
+# ssxy214276633626.4864
+# ssxx145987207776.4184
+# ssxy214702604604.1312
+# ssxx146177508146.022
+# ssxy215062996308.036
+# ssxx146379629528.9856
+# ssxy215706098451.5808
+# ssxx146841876948.9892
+# ssxy216662994561.1656
+# ssxx147246970662.7528
+# ssxy217302164184.5904
+# ssxx147874770792.0364
+# ssxy218096410422.1752
+# ssxx148712117288.6
+# ssxy219364714187.42
+# ssxx149389935389.4036
+# ssxy220110430891.0448
+# ssxx150917880619.7272
+# ssxy221659991523.4096
+# ssxx152112892232.4508
+# ssxy222838685905.0744
+# ssxx153076370107.6545
+# ssxy224049272121.8192
+# ssxx153824991145.338
+# ssxy225279800848.5041
+# ssxx155126536745.1017
+# ssxy226896658182.3289
+# ssxx156201126772.3853
+# ssxy228397727583.3937
+# ssxx157789702438.5489
+# ssxy230084828808.0985
+# ssxx159405818015.4325
+# ssxy231920038703.9633
+# ssxx160375264775.1161
+# ssxy233946332052.3481
+# ssxx161439325260.7197
+# ssxy235851757997.9728
+# ssxx162566736160.4833
+# ssxy237722427370.0376
+# ssxx164341162481.6069
+# ssxy240019990059.5424
+# ssxx165955027589.8505
+# ssxy242581855402.4472
+# ssxx167526193877.2941
+# ssxy245095809300.032
+# ssxx169576014069.2977
+# ssxy247924312279.5968
+# ssxx171617331408.5813
+# ssxy250929292984.5216
+# ssxx174274830823.4649
+# ssxy253856505886.4664
+# ssxx175958779195.1485
+# ssxy256692250201.3512
+# ssxx179307246207.2321
+# ssxy260814557271.736
+# ssxx180776277191.8756
+# ssxy263422003963.7008
+# ssxx182873453721.4793
+# ssxy267040166919.6256
+# ssxx185540963427.7228
+# ssxy270290832483.4504
+# ssxx189063734914.3665
+# ssxy274740814411.7152
+# ssxx190900623652.2901
+# ssxy277706092464.78
+# ssxx193444609443.7337
+# ssxy281864646144.8048
+# ssxx196381050662.0573
+# ssxy285835769899.7096
+# ssxx199940001152.2209
+# ssxy290576045922.6144
+# ssxx202636200546.2245
+# ssxy294668505914.7192
+# ssxx205503689521.3481
+# ssxy298753536067.644
+# ssxx208198227573.2717
+# ssxy303762588898.1088
+# ssxx211268378205.1953
+# ssxy308377539669.0536
+# ssxx215763134009.0389
+# ssxy314263837394.6784
+# ssxx220058748825.1225
+# ssxy320505295867.6032
+# ssxx223800877413.3661
+# ssxy326456255749.908
+# ssxx227796753196.8097
+# ssxy332786584143.2929
+# ssxx232084637662.9733
+# ssxy338892180472.2777
+# ssxx236145505640.9769
+# ssxy345242875444.8024
+# ssxx239944864565.3005
+# ssxy352223110635.0472
+# ssxx244568448414.6641
+# ssxy358458696581.0521
+# ssxx248210322276.9077
+# ssxy365162684059.8769
+# ssxx253634488640.0313
+# ssxy372658299036.4617
+# ssxx257551864050.3549
+# ssxy378555486545.0865
+# ssxx263834794763.5585
+# ssxy386293799236.3313
+# ssxx269189805666.2021
+# ssxy394570657463.7361
+# ssxx275162149353.4857
+# ssxy403334773562.9009
+# ssxx280899596779.9693
+# ssxy411786953964.0657
+# ssxx286616913475.4129
+# ssxy420053181354.6505
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 13:06:07 on Apr 12,2022, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 5
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 13:09:48 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0      0
+# b1      0
+# b0 115100
+# b1      0
+# b0 115100
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      2
+# b01011128
+# b1      2
+# b01011128
+# b1      2
+# b01011128
+# b1      2
+# b01011128
+# b1      2
+# b01011128
+# b1      2
+# b01011128
+# b1      2
+# b01011128
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      2
+# b01011128
+# b1      1
+# b0  38826
+# b1      2
+# b01011128
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# b0  38826
+# b1      1
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 13:14:12 on Apr 12,2022, Elapsed time: 0:04:24
+# Errors: 0, Warnings: 5
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 13:18:21 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# b011441109
+# b117265012
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 13:19:14 on Apr 12,2022, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 5
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 13:21:37 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# b00
+# b10
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 13:22:26 on Apr 12,2022, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 5
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 13:33:49 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# b00
+# b10
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# b076274.06
+# b1115100.08
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 13:34:51 on Apr 12,2022, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 5
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 13:35:40 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# n        151
+# b_1      0
+# b_0      0
+# ssxx0
+# ssxy0
+# mean_x0
+# mean_y0
+# n        152
+# b_1      0
+# b_0      0
+# ssxx2149156
+# ssxy488178
+# mean_x76274.06
+# mean_y115100.08
+# n        153
+# b_1      0
+# b_0 115100
+# ssxx5236390941.763599
+# ssxy7767781687.444799
+# mean_x76274.06
+# mean_y115100.08
+# n        154
+# b_1      1
+# b_0 115100
+# ssxx10702488302.7272
+# ssxy15610458740.7696
+# mean_x76274.06
+# mean_y115100.08
+# n        155
+# b_1      1
+# b_0  38826
+# ssxx16169768656.6508
+# ssxy23969871194.3544
+# mean_x76274.06
+# mean_y115100.08
+# n        156
+# b_1      1
+# b_0  38826
+# ssxx20102696551.2144
+# ssxy31112517467.0392
+# mean_x76274.06
+# mean_y115100.08
+# n        157
+# b_1      2
+# b_0  38826
+# ssxx25066612030.818
+# ssxy38635855320.364
+# mean_x76274.06
+# mean_y115100.08
+# n        158
+# b_1      2
+# b_01011128
+# ssxx29327706593.0616
+# ssxy45822277354.9888
+# mean_x76274.06
+# mean_y115100.08
+# n        159
+# b_1      2
+# b_01011128
+# ssxx34024349840.9052
+# ssxy52741896403.6936
+# mean_x76274.06
+# mean_y115100.08
+# n        160
+# b_1      2
+# b_01011128
+# ssxx39448828480.02879
+# ssxy59937831810.95841
+# mean_x76274.06
+# mean_y115100.08
+# n        161
+# b_1      2
+# b_01011128
+# ssxx44374209662.7524
+# ssxy67358080899.2432
+# mean_x76274.06
+# mean_y115100.08
+# n        162
+# b_1      2
+# b_01011128
+# ssxx48188020609.476
+# ssxy73569078062.108
+# mean_x76274.06
+# mean_y115100.08
+# n        163
+# b_1      2
+# b_01011128
+# ssxx53587045910.8396
+# ssxy80017665442.0728
+# mean_x76274.06
+# mean_y115100.08
+# n        164
+# b_1      1
+# b_01011128
+# ssxx57227968751.6432
+# ssxy85789438368.51759
+# mean_x76274.06
+# mean_y115100.08
+# n        165
+# b_1      1
+# b_0  38826
+# ssxx61464033786.84679
+# ssxy92399482268.92239
+# mean_x76274.06
+# mean_y115100.08
+# n        166
+# b_1      2
+# b_0  38826
+# ssxx65414289529.97039
+# ssxy97995242870.9272
+# mean_x76274.06
+# mean_y115100.08
+# n        167
+# b_1      1
+# b_01011128
+# ssxx68949669346.05399
+# ssxy103469286527.492
+# mean_x76274.06
+# mean_y115100.08
+# n        168
+# b_1      2
+# b_0  38826
+# ssxx72855301870.45758
+# ssxy108731813044.5168
+# mean_x76274.06
+# mean_y115100.08
+# n        169
+# b_1      1
+# b_01011128
+# ssxx77835294099.74118
+# ssxy114444948649.5216
+# mean_x76274.06
+# mean_y115100.08
+# n        170
+# b_1      1
+# b_0  38826
+# ssxx82252765371.42477
+# ssxy119475153419.6264
+# mean_x76274.06
+# mean_y115100.08
+# n        171
+# b_1      1
+# b_0  38826
+# ssxx84059105472.54837
+# ssxy122464936386.4712
+# mean_x76274.06
+# mean_y115100.08
+# n        172
+# b_1      1
+# b_0  38826
+# ssxx87818887319.59197
+# ssxy127790879806.376
+# mean_x76274.06
+# mean_y115100.08
+# n        173
+# b_1      1
+# b_0  38826
+# ssxx90956126161.91556
+# ssxy132535077080.3208
+# mean_x76274.06
+# mean_y115100.08
+# n        174
+# b_1      1
+# b_0  38826
+# ssxx94577164007.91916
+# ssxy137420273790.3056
+# mean_x76274.06
+# mean_y115100.08
+# n        175
+# b_1      1
+# b_0  38826
+# ssxx97578785951.36276
+# ssxy141628033955.3904
+# mean_x76274.06
+# mean_y115100.08
+# n        176
+# b_1      1
+# b_0  38826
+# ssxx99718871623.68636
+# ssxy144932465172.0752
+# mean_x76274.06
+# mean_y115100.08
+# n        177
+# b_1      1
+# b_0  38826
+# ssxx102126055480.25
+# ssxy148852852906.42
+# mean_x76274.06
+# mean_y115100.08
+# n        178
+# b_1      1
+# b_0  38826
+# ssxx104531767670.0136
+# ssxy152447392955.4248
+# mean_x76274.06
+# mean_y115100.08
+# n        179
+# b_1      1
+# b_0  38826
+# ssxx106630970657.0571
+# ssxy155741918137.1496
+# mean_x76274.06
+# mean_y115100.08
+# n        180
+# b_1      1
+# b_0  38826
+# ssxx108640435965.3008
+# ssxy159204677627.1344
+# mean_x76274.06
+# mean_y115100.08
+# n        181
+# b_1      1
+# b_0  38826
+# ssxx110592843863.6243
+# ssxy162461061225.8392
+# mean_x76274.06
+# mean_y115100.08
+# n        182
+# b_1      1
+# b_0  38826
+# ssxx112177764361.9479
+# ssxy165097551859.224
+# mean_x76274.06
+# mean_y115100.08
+# n        183
+# b_1      1
+# b_0  38826
+# ssxx114056125162.7515
+# ssxy168143061342.6288
+# mean_x76274.06
+# mean_y115100.08
+# n        184
+# b_1      1
+# b_0  38826
+# ssxx115973782098.6751
+# ssxy170919199094.6136
+# mean_x76274.06
+# mean_y115100.08
+# n        185
+# b_1      1
+# b_0  38826
+# ssxx117495098795.1587
+# ssxy173314636559.8384
+# mean_x76274.06
+# mean_y115100.08
+# n        186
+# b_1      1
+# b_0  38826
+# ssxx119479182989.3223
+# ssxy176453366846.1832
+# mean_x76274.06
+# mean_y115100.08
+# n        187
+# b_1      1
+# b_0  38826
+# ssxx120983153604.0459
+# ssxy178837513174.288
+# mean_x76274.06
+# mean_y115100.08
+# n        188
+# b_1      1
+# b_0  38826
+# ssxx122766362655.4096
+# ssxy181223106346.1128
+# mean_x76274.06
+# mean_y115100.08
+# n        189
+# b_1      1
+# b_0  38826
+# ssxx124605062201.0132
+# ssxy184022706013.8576
+# mean_x76274.06
+# mean_y115100.08
+# n        190
+# b_1      1
+# b_0  38826
+# ssxx125580441309.7368
+# ssxy185710684843.2224
+# mean_x76274.06
+# mean_y115100.08
+# n        191
+# b_1      1
+# b_0  38826
+# ssxx127323592320.8604
+# ssxy188309399410.8872
+# mean_x76274.06
+# mean_y115100.08
+# n        192
+# b_1      1
+# b_0  38826
+# ssxx128674526756.464
+# ssxy190416569941.092
+# mean_x76274.06
+# mean_y115100.08
+# n        193
+# b_1      1
+# b_0  38826
+# ssxx130093936902.4676
+# ssxy192275874841.1568
+# mean_x76274.06
+# mean_y115100.08
+# n        194
+# b_1      1
+# b_0  38826
+# ssxx131143635991.3512
+# ssxy193722430663.9616
+# mean_x76274.06
+# mean_y115100.08
+# n        195
+# b_1      1
+# b_0  38826
+# ssxx132011707895.9148
+# ssxy194814510802.9664
+# mean_x76274.06
+# mean_y115100.08
+# n        196
+# b_1      1
+# b_0  38826
+# ssxx132996416061.5184
+# ssxy196534736822.5112
+# mean_x76274.06
+# mean_y115100.08
+# n        197
+# b_1      1
+# b_0  38826
+# ssxx133917906440.242
+# ssxy198301249450.576
+# mean_x76274.06
+# mean_y115100.08
+# n        198
+# b_1      1
+# b_0  38826
+# ssxx135347053392.7256
+# ssxy199819992781.3408
+# mean_x76274.06
+# mean_y115100.08
+# n        199
+# b_1      1
+# b_0  38826
+# ssxx136238198878.9692
+# ssxy200843592454.8456
+# mean_x76274.06
+# mean_y115100.08
+# n        200
+# b_1      1
+# b_0  38826
+# ssxx137018119559.2128
+# ssxy202030327176.6504
+# mean_x76274.06
+# mean_y115100.08
+# n        201
+# b_1      1
+# b_0  38826
+# ssxx137269819688.0164
+# ssxy202593633266.2152
+# mean_x76274.06
+# mean_y115100.08
+# n        202
+# b_1      1
+# b_0  38826
+# ssxx137899380979.94
+# ssxy203657822401.2799
+# mean_x76274.06
+# mean_y115100.08
+# n        203
+# b_1      1
+# b_0  38826
+# ssxx138546425001.3836
+# ssxy204365788690.1647
+# mean_x76274.06
+# mean_y115100.08
+# n        204
+# b_1      1
+# b_0  38826
+# ssxx138849291498.7472
+# ssxy204872306143.7095
+# mean_x76274.06
+# mean_y115100.08
+# n        205
+# b_1      1
+# b_0  38826
+# ssxx139174014061.1508
+# ssxy205385572954.2943
+# mean_x76274.06
+# mean_y115100.08
+# n        206
+# b_1      1
+# b_0  38826
+# ssxx139640792678.7544
+# ssxy206150977143.3192
+# mean_x76274.06
+# mean_y115100.08
+# n        207
+# b_1      1
+# b_0  38826
+# ssxx140425972482.278
+# ssxy206870308016.264
+# mean_x76274.06
+# mean_y115100.08
+# n        208
+# b_1      1
+# b_0  38826
+# ssxx140901738443.7216
+# ssxy207447129687.9287
+# mean_x76274.06
+# mean_y115100.08
+# n        209
+# b_1      1
+# b_0  38826
+# ssxx141045571931.8852
+# ssxy207800985882.6736
+# mean_x76274.06
+# mean_y115100.08
+# n        210
+# b_1      1
+# b_0  38826
+# ssxx141164797803.1688
+# ssxy207946723450.0183
+# mean_x76274.06
+# mean_y115100.08
+# n        211
+# b_1      1
+# b_0  38826
+# ssxx141349922671.8924
+# ssxy208117276500.6032
+# mean_x76274.06
+# mean_y115100.08
+# n        212
+# b_1      1
+# b_0  38826
+# ssxx141471916022.296
+# ssxy208365448837.348
+# mean_x76274.06
+# mean_y115100.08
+# n        213
+# b_1      1
+# b_0  38826
+# ssxx141636090528.8596
+# ssxy208597622509.5928
+# mean_x76274.06
+# mean_y115100.08
+# n        214
+# b_1      1
+# b_0  38826
+# ssxx141681370777.3432
+# ssxy208762612870.0576
+# mean_x76274.06
+# mean_y115100.08
+# n        215
+# b_1      1
+# b_0  38826
+# ssxx141925950975.0268
+# ssxy209022504020.2624
+# mean_x76274.06
+# mean_y115100.08
+# n        216
+# b_1      1
+# b_0  38826
+# ssxx141998900680.9504
+# ssxy209173117755.5872
+# mean_x76274.06
+# mean_y115100.08
+# n        217
+# b_1      1
+# b_0  38826
+# ssxx141999022523.834
+# ssxy209175127670.992
+# mean_x76274.06
+# mean_y115100.08
+# n        218
+# b_1      1
+# b_0  38826
+# ssxx142045385821.9176
+# ssxy209229267051.7768
+# mean_x76274.06
+# mean_y115100.08
+# n        219
+# b_1      1
+# b_0  38826
+# ssxx142254826342.5612
+# ssxy209587929272.5216
+# mean_x76274.06
+# mean_y115100.08
+# n        220
+# b_1      1
+# b_0  38826
+# ssxx142410952866.9648
+# ssxy209696262442.3264
+# mean_x76274.06
+# mean_y115100.08
+# n        221
+# b_1      1
+# b_0  38826
+# ssxx142413396023.5284
+# ssxy209715167778.0712
+# mean_x76274.06
+# mean_y115100.08
+# n        222
+# b_1      1
+# b_0  38826
+# ssxx142416507507.852
+# ssxy209694069150.616
+# mean_x76274.06
+# mean_y115100.08
+# n        223
+# b_1      1
+# b_0  38826
+# ssxx142778879088.1756
+# ssxy210006147841.1408
+# mean_x76274.06
+# mean_y115100.08
+# n        224
+# b_1      1
+# b_0  38826
+# ssxx142807834894.8992
+# ssxy209992082180.7856
+# mean_x76274.06
+# mean_y115100.08
+# n        225
+# b_1      1
+# b_0  38826
+# ssxx142932381834.1028
+# ssxy210072848427.8104
+# mean_x76274.06
+# mean_y115100.08
+# n        226
+# b_1      1
+# b_0  38826
+# ssxx142955334940.1864
+# ssxy210105785757.0352
+# mean_x76274.06
+# mean_y115100.08
+# n        227
+# b_1      1
+# b_0  38826
+# ssxx142973729946.51
+# ssxy210092545456.14
+# mean_x76274.06
+# mean_y115100.08
+# n        228
+# b_1      1
+# b_0  38826
+# ssxx142976101361.7136
+# ssxy210093028874.1048
+# mean_x76274.06
+# mean_y115100.08
+# n        229
+# b_1      1
+# b_0  38826
+# ssxx142994547871.3172
+# ssxy210113932003.4896
+# mean_x76274.06
+# mean_y115100.08
+# n        230
+# b_1      1
+# b_0  38826
+# ssxx143022058525.7208
+# ssxy210112490031.5944
+# mean_x76274.06
+# mean_y115100.08
+# n        231
+# b_1      1
+# b_0  38826
+# ssxx143072396699.3244
+# ssxy210129041959.0192
+# mean_x76274.06
+# mean_y115100.08
+# n        232
+# b_1      1
+# b_0  38826
+# ssxx143086146408.288
+# ssxy210091082845.444
+# mean_x76274.06
+# mean_y115100.08
+# n        233
+# b_1      1
+# b_0  38826
+# ssxx143125295706.4516
+# ssxy210124882334.7688
+# mean_x76274.06
+# mean_y115100.08
+# n        234
+# b_1      1
+# b_0  38826
+# ssxx143459415353.9752
+# ssxy210431784275.0536
+# mean_x76274.06
+# mean_y115100.08
+# n        235
+# b_1      1
+# b_0  38826
+# ssxx143585369736.2188
+# ssxy210604538092.6384
+# mean_x76274.06
+# mean_y115100.08
+# n        236
+# b_1      1
+# b_0  38826
+# ssxx143797390709.9024
+# ssxy210761955250.1032
+# mean_x76274.06
+# mean_y115100.08
+# n        237
+# b_1      1
+# b_0  38826
+# ssxx143869622691.026
+# ssxy210896195327.488
+# mean_x76274.06
+# mean_y115100.08
+# n        238
+# b_1      1
+# b_0  38826
+# ssxx143934247247.3496
+# ssxy211052367171.7528
+# mean_x76274.06
+# mean_y115100.08
+# n        239
+# b_1      1
+# b_0  38826
+# ssxx144121935603.3532
+# ssxy211277730088.7576
+# mean_x76274.06
+# mean_y115100.08
+# n        240
+# b_1      1
+# b_0  38826
+# ssxx144387786671.7568
+# ssxy211623426122.2424
+# mean_x76274.06
+# mean_y115100.08
+# n        241
+# b_1      1
+# b_0  38826
+# ssxx144671538675.3604
+# ssxy212146258022.3672
+# mean_x76274.06
+# mean_y115100.08
+# n        242
+# b_1      1
+# b_0  38826
+# ssxx144855926286.884
+# ssxy212464588026.472
+# mean_x76274.06
+# mean_y115100.08
+# n        243
+# b_1      1
+# b_0  38826
+# ssxx145099097251.6076
+# ssxy212929067875.7968
+# mean_x76274.06
+# mean_y115100.08
+# n        244
+# b_1      1
+# b_0  38826
+# ssxx145635294808.8912
+# ssxy213692308961.6616
+# mean_x76274.06
+# mean_y115100.08
+# n        245
+# b_1      1
+# b_0  38826
+# ssxx145848511460.6548
+# ssxy214276633626.4864
+# mean_x76274.06
+# mean_y115100.08
+# n        246
+# b_1      1
+# b_0  38826
+# ssxx145987207776.4184
+# ssxy214702604604.1312
+# mean_x76274.06
+# mean_y115100.08
+# n        247
+# b_1      1
+# b_0  38826
+# ssxx146177508146.022
+# ssxy215062996308.036
+# mean_x76274.06
+# mean_y115100.08
+# n        248
+# b_1      1
+# b_0  38826
+# ssxx146379629528.9856
+# ssxy215706098451.5808
+# mean_x76274.06
+# mean_y115100.08
+# n        249
+# b_1      1
+# b_0  38826
+# ssxx146841876948.9892
+# ssxy216662994561.1656
+# mean_x76274.06
+# mean_y115100.08
+# n        250
+# b_1      1
+# b_0  38826
+# ssxx147246970662.7528
+# ssxy217302164184.5904
+# mean_x76274.06
+# mean_y115100.08
+# n        251
+# b_1      1
+# b_0  38826
+# ssxx147874770792.0364
+# ssxy218096410422.1752
+# mean_x76274.06
+# mean_y115100.08
+# n        252
+# b_1      1
+# b_0  38826
+# ssxx148712117288.6
+# ssxy219364714187.42
+# mean_x76274.06
+# mean_y115100.08
+# n        253
+# b_1      1
+# b_0  38826
+# ssxx149389935389.4036
+# ssxy220110430891.0448
+# mean_x76274.06
+# mean_y115100.08
+# n        254
+# b_1      1
+# b_0  38826
+# ssxx150917880619.7272
+# ssxy221659991523.4096
+# mean_x76274.06
+# mean_y115100.08
+# n        255
+# b_1      1
+# b_0  38826
+# ssxx152112892232.4508
+# ssxy222838685905.0744
+# mean_x76274.06
+# mean_y115100.08
+# n        256
+# b_1      1
+# b_0  38826
+# ssxx153076370107.6545
+# ssxy224049272121.8192
+# mean_x76274.06
+# mean_y115100.08
+# n        257
+# b_1      1
+# b_0  38826
+# ssxx153824991145.338
+# ssxy225279800848.5041
+# mean_x76274.06
+# mean_y115100.08
+# n        258
+# b_1      1
+# b_0  38826
+# ssxx155126536745.1017
+# ssxy226896658182.3289
+# mean_x76274.06
+# mean_y115100.08
+# n        259
+# b_1      1
+# b_0  38826
+# ssxx156201126772.3853
+# ssxy228397727583.3937
+# mean_x76274.06
+# mean_y115100.08
+# n        260
+# b_1      1
+# b_0  38826
+# ssxx157789702438.5489
+# ssxy230084828808.0985
+# mean_x76274.06
+# mean_y115100.08
+# n        261
+# b_1      1
+# b_0  38826
+# ssxx159405818015.4325
+# ssxy231920038703.9633
+# mean_x76274.06
+# mean_y115100.08
+# n        262
+# b_1      1
+# b_0  38826
+# ssxx160375264775.1161
+# ssxy233946332052.3481
+# mean_x76274.06
+# mean_y115100.08
+# n        263
+# b_1      1
+# b_0  38826
+# ssxx161439325260.7197
+# ssxy235851757997.9728
+# mean_x76274.06
+# mean_y115100.08
+# n        264
+# b_1      1
+# b_0  38826
+# ssxx162566736160.4833
+# ssxy237722427370.0376
+# mean_x76274.06
+# mean_y115100.08
+# n        265
+# b_1      1
+# b_0  38826
+# ssxx164341162481.6069
+# ssxy240019990059.5424
+# mean_x76274.06
+# mean_y115100.08
+# n        266
+# b_1      1
+# b_0  38826
+# ssxx165955027589.8505
+# ssxy242581855402.4472
+# mean_x76274.06
+# mean_y115100.08
+# n        267
+# b_1      1
+# b_0  38826
+# ssxx167526193877.2941
+# ssxy245095809300.032
+# mean_x76274.06
+# mean_y115100.08
+# n        268
+# b_1      1
+# b_0  38826
+# ssxx169576014069.2977
+# ssxy247924312279.5968
+# mean_x76274.06
+# mean_y115100.08
+# n        269
+# b_1      1
+# b_0  38826
+# ssxx171617331408.5813
+# ssxy250929292984.5216
+# mean_x76274.06
+# mean_y115100.08
+# n        270
+# b_1      1
+# b_0  38826
+# ssxx174274830823.4649
+# ssxy253856505886.4664
+# mean_x76274.06
+# mean_y115100.08
+# n        271
+# b_1      1
+# b_0  38826
+# ssxx175958779195.1485
+# ssxy256692250201.3512
+# mean_x76274.06
+# mean_y115100.08
+# n        272
+# b_1      1
+# b_0  38826
+# ssxx179307246207.2321
+# ssxy260814557271.736
+# mean_x76274.06
+# mean_y115100.08
+# n        273
+# b_1      1
+# b_0  38826
+# ssxx180776277191.8756
+# ssxy263422003963.7008
+# mean_x76274.06
+# mean_y115100.08
+# n        274
+# b_1      1
+# b_0  38826
+# ssxx182873453721.4793
+# ssxy267040166919.6256
+# mean_x76274.06
+# mean_y115100.08
+# n        275
+# b_1      1
+# b_0  38826
+# ssxx185540963427.7228
+# ssxy270290832483.4504
+# mean_x76274.06
+# mean_y115100.08
+# n        276
+# b_1      1
+# b_0  38826
+# ssxx189063734914.3665
+# ssxy274740814411.7152
+# mean_x76274.06
+# mean_y115100.08
+# n        277
+# b_1      1
+# b_0  38826
+# ssxx190900623652.2901
+# ssxy277706092464.78
+# mean_x76274.06
+# mean_y115100.08
+# n        278
+# b_1      1
+# b_0  38826
+# ssxx193444609443.7337
+# ssxy281864646144.8048
+# mean_x76274.06
+# mean_y115100.08
+# n        279
+# b_1      1
+# b_0  38826
+# ssxx196381050662.0573
+# ssxy285835769899.7096
+# mean_x76274.06
+# mean_y115100.08
+# n        280
+# b_1      1
+# b_0  38826
+# ssxx199940001152.2209
+# ssxy290576045922.6144
+# mean_x76274.06
+# mean_y115100.08
+# n        281
+# b_1      1
+# b_0  38826
+# ssxx202636200546.2245
+# ssxy294668505914.7192
+# mean_x76274.06
+# mean_y115100.08
+# n        282
+# b_1      1
+# b_0  38826
+# ssxx205503689521.3481
+# ssxy298753536067.644
+# mean_x76274.06
+# mean_y115100.08
+# n        283
+# b_1      1
+# b_0  38826
+# ssxx208198227573.2717
+# ssxy303762588898.1088
+# mean_x76274.06
+# mean_y115100.08
+# n        284
+# b_1      1
+# b_0  38826
+# ssxx211268378205.1953
+# ssxy308377539669.0536
+# mean_x76274.06
+# mean_y115100.08
+# n        285
+# b_1      1
+# b_0  38826
+# ssxx215763134009.0389
+# ssxy314263837394.6784
+# mean_x76274.06
+# mean_y115100.08
+# n        286
+# b_1      1
+# b_0  38826
+# ssxx220058748825.1225
+# ssxy320505295867.6032
+# mean_x76274.06
+# mean_y115100.08
+# n        287
+# b_1      1
+# b_0  38826
+# ssxx223800877413.3661
+# ssxy326456255749.908
+# mean_x76274.06
+# mean_y115100.08
+# n        288
+# b_1      1
+# b_0  38826
+# ssxx227796753196.8097
+# ssxy332786584143.2929
+# mean_x76274.06
+# mean_y115100.08
+# n        289
+# b_1      1
+# b_0  38826
+# ssxx232084637662.9733
+# ssxy338892180472.2777
+# mean_x76274.06
+# mean_y115100.08
+# n        290
+# b_1      1
+# b_0  38826
+# ssxx236145505640.9769
+# ssxy345242875444.8024
+# mean_x76274.06
+# mean_y115100.08
+# n        291
+# b_1      1
+# b_0  38826
+# ssxx239944864565.3005
+# ssxy352223110635.0472
+# mean_x76274.06
+# mean_y115100.08
+# n        292
+# b_1      1
+# b_0  38826
+# ssxx244568448414.6641
+# ssxy358458696581.0521
+# mean_x76274.06
+# mean_y115100.08
+# n        293
+# b_1      1
+# b_0  38826
+# ssxx248210322276.9077
+# ssxy365162684059.8769
+# mean_x76274.06
+# mean_y115100.08
+# n        294
+# b_1      1
+# b_0  38826
+# ssxx253634488640.0313
+# ssxy372658299036.4617
+# mean_x76274.06
+# mean_y115100.08
+# n        295
+# b_1      1
+# b_0  38826
+# ssxx257551864050.3549
+# ssxy378555486545.0865
+# mean_x76274.06
+# mean_y115100.08
+# n        296
+# b_1      1
+# b_0  38826
+# ssxx263834794763.5585
+# ssxy386293799236.3313
+# mean_x76274.06
+# mean_y115100.08
+# n        297
+# b_1      1
+# b_0  38826
+# ssxx269189805666.2021
+# ssxy394570657463.7361
+# mean_x76274.06
+# mean_y115100.08
+# n        298
+# b_1      1
+# b_0  38826
+# ssxx275162149353.4857
+# ssxy403334773562.9009
+# mean_x76274.06
+# mean_y115100.08
+# n        299
+# b_1      1
+# b_0  38826
+# ssxx280899596779.9693
+# ssxy411786953964.0657
+# mean_x76274.06
+# mean_y115100.08
+# n        300
+# b_1      1
+# b_0  38826
+# ssxx286616913475.4129
+# ssxy420053181354.6505
+# mean_x76274.06
+# mean_y115100.08
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+# Break key hit
+quit -sim
+# End time: 13:37:22 on Apr 12,2022, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 5
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 13:37:45 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+add wave -position insertpoint  \
+sim:/mytest/b_1 \
+sim:/mytest/b_2 \
+sim:/mytest/clk \
+sim:/mytest/co \
+sim:/mytest/inc_vector \
+sim:/mytest/ready \
+sim:/mytest/rst \
+sim:/mytest/start \
+sim:/mytest/Vect_E \
+sim:/mytest/Vect_X \
+sim:/mytest/Vect_Y
+run -all
+# n        151
+# b_1      0
+# b_0      0
+# ssxx0
+# ssxy0
+# mean_x0
+# mean_y0
+# n        152
+# b_1      0
+# b_0      0
+# ssxx2149156
+# ssxy488178
+# mean_x76274.06
+# mean_y115100.08
+# n        153
+# b_1      0
+# b_0 115100
+# ssxx5236390941.763599
+# ssxy7767781687.444799
+# mean_x76274.06
+# mean_y115100.08
+# n        154
+# b_1      1
+# b_0 115100
+# ssxx10702488302.7272
+# ssxy15610458740.7696
+# mean_x76274.06
+# mean_y115100.08
+# n        155
+# b_1      1
+# b_0  38826
+# ssxx16169768656.6508
+# ssxy23969871194.3544
+# mean_x76274.06
+# mean_y115100.08
+# n        156
+# b_1      1
+# b_0  38826
+# ssxx20102696551.2144
+# ssxy31112517467.0392
+# mean_x76274.06
+# mean_y115100.08
+# n        157
+# b_1      2
+# b_0  38826
+# ssxx25066612030.818
+# ssxy38635855320.364
+# mean_x76274.06
+# mean_y115100.08
+# n        158
+# b_1      2
+# b_01011128
+# ssxx29327706593.0616
+# ssxy45822277354.9888
+# mean_x76274.06
+# mean_y115100.08
+# n        159
+# b_1      2
+# b_01011128
+# ssxx34024349840.9052
+# ssxy52741896403.6936
+# mean_x76274.06
+# mean_y115100.08
+# n        160
+# b_1      2
+# b_01011128
+# ssxx39448828480.02879
+# ssxy59937831810.95841
+# mean_x76274.06
+# mean_y115100.08
+# n        161
+# b_1      2
+# b_01011128
+# ssxx44374209662.7524
+# ssxy67358080899.2432
+# mean_x76274.06
+# mean_y115100.08
+# n        162
+# b_1      2
+# b_01011128
+# ssxx48188020609.476
+# ssxy73569078062.108
+# mean_x76274.06
+# mean_y115100.08
+# n        163
+# b_1      2
+# b_01011128
+# ssxx53587045910.8396
+# ssxy80017665442.0728
+# mean_x76274.06
+# mean_y115100.08
+# n        164
+# b_1      1
+# b_01011128
+# ssxx57227968751.6432
+# ssxy85789438368.51759
+# mean_x76274.06
+# mean_y115100.08
+# n        165
+# b_1      1
+# b_0  38826
+# ssxx61464033786.84679
+# ssxy92399482268.92239
+# mean_x76274.06
+# mean_y115100.08
+# n        166
+# b_1      2
+# b_0  38826
+# ssxx65414289529.97039
+# ssxy97995242870.9272
+# mean_x76274.06
+# mean_y115100.08
+# n        167
+# b_1      1
+# b_01011128
+# ssxx68949669346.05399
+# ssxy103469286527.492
+# mean_x76274.06
+# mean_y115100.08
+# n        168
+# b_1      2
+# b_0  38826
+# ssxx72855301870.45758
+# ssxy108731813044.5168
+# mean_x76274.06
+# mean_y115100.08
+# n        169
+# b_1      1
+# b_01011128
+# ssxx77835294099.74118
+# ssxy114444948649.5216
+# mean_x76274.06
+# mean_y115100.08
+# n        170
+# b_1      1
+# b_0  38826
+# ssxx82252765371.42477
+# ssxy119475153419.6264
+# mean_x76274.06
+# mean_y115100.08
+# n        171
+# b_1      1
+# b_0  38826
+# ssxx84059105472.54837
+# ssxy122464936386.4712
+# mean_x76274.06
+# mean_y115100.08
+# n        172
+# b_1      1
+# b_0  38826
+# ssxx87818887319.59197
+# ssxy127790879806.376
+# mean_x76274.06
+# mean_y115100.08
+# n        173
+# b_1      1
+# b_0  38826
+# ssxx90956126161.91556
+# ssxy132535077080.3208
+# mean_x76274.06
+# mean_y115100.08
+# n        174
+# b_1      1
+# b_0  38826
+# ssxx94577164007.91916
+# ssxy137420273790.3056
+# mean_x76274.06
+# mean_y115100.08
+# n        175
+# b_1      1
+# b_0  38826
+# ssxx97578785951.36276
+# ssxy141628033955.3904
+# mean_x76274.06
+# mean_y115100.08
+# n        176
+# b_1      1
+# b_0  38826
+# ssxx99718871623.68636
+# ssxy144932465172.0752
+# mean_x76274.06
+# mean_y115100.08
+# n        177
+# b_1      1
+# b_0  38826
+# ssxx102126055480.25
+# ssxy148852852906.42
+# mean_x76274.06
+# mean_y115100.08
+# n        178
+# b_1      1
+# b_0  38826
+# ssxx104531767670.0136
+# ssxy152447392955.4248
+# mean_x76274.06
+# mean_y115100.08
+# n        179
+# b_1      1
+# b_0  38826
+# ssxx106630970657.0571
+# ssxy155741918137.1496
+# mean_x76274.06
+# mean_y115100.08
+# n        180
+# b_1      1
+# b_0  38826
+# ssxx108640435965.3008
+# ssxy159204677627.1344
+# mean_x76274.06
+# mean_y115100.08
+# n        181
+# b_1      1
+# b_0  38826
+# ssxx110592843863.6243
+# ssxy162461061225.8392
+# mean_x76274.06
+# mean_y115100.08
+# n        182
+# b_1      1
+# b_0  38826
+# ssxx112177764361.9479
+# ssxy165097551859.224
+# mean_x76274.06
+# mean_y115100.08
+# n        183
+# b_1      1
+# b_0  38826
+# ssxx114056125162.7515
+# ssxy168143061342.6288
+# mean_x76274.06
+# mean_y115100.08
+# n        184
+# b_1      1
+# b_0  38826
+# ssxx115973782098.6751
+# ssxy170919199094.6136
+# mean_x76274.06
+# mean_y115100.08
+# n        185
+# b_1      1
+# b_0  38826
+# ssxx117495098795.1587
+# ssxy173314636559.8384
+# mean_x76274.06
+# mean_y115100.08
+# n        186
+# b_1      1
+# b_0  38826
+# ssxx119479182989.3223
+# ssxy176453366846.1832
+# mean_x76274.06
+# mean_y115100.08
+# n        187
+# b_1      1
+# b_0  38826
+# ssxx120983153604.0459
+# ssxy178837513174.288
+# mean_x76274.06
+# mean_y115100.08
+# n        188
+# b_1      1
+# b_0  38826
+# ssxx122766362655.4096
+# ssxy181223106346.1128
+# mean_x76274.06
+# mean_y115100.08
+# n        189
+# b_1      1
+# b_0  38826
+# ssxx124605062201.0132
+# ssxy184022706013.8576
+# mean_x76274.06
+# mean_y115100.08
+# n        190
+# b_1      1
+# b_0  38826
+# ssxx125580441309.7368
+# ssxy185710684843.2224
+# mean_x76274.06
+# mean_y115100.08
+# n        191
+# b_1      1
+# b_0  38826
+# ssxx127323592320.8604
+# ssxy188309399410.8872
+# mean_x76274.06
+# mean_y115100.08
+# n        192
+# b_1      1
+# b_0  38826
+# ssxx128674526756.464
+# ssxy190416569941.092
+# mean_x76274.06
+# mean_y115100.08
+# n        193
+# b_1      1
+# b_0  38826
+# ssxx130093936902.4676
+# ssxy192275874841.1568
+# mean_x76274.06
+# mean_y115100.08
+# n        194
+# b_1      1
+# b_0  38826
+# ssxx131143635991.3512
+# ssxy193722430663.9616
+# mean_x76274.06
+# mean_y115100.08
+# n        195
+# b_1      1
+# b_0  38826
+# ssxx132011707895.9148
+# ssxy194814510802.9664
+# mean_x76274.06
+# mean_y115100.08
+# n        196
+# b_1      1
+# b_0  38826
+# ssxx132996416061.5184
+# ssxy196534736822.5112
+# mean_x76274.06
+# mean_y115100.08
+# n        197
+# b_1      1
+# b_0  38826
+# ssxx133917906440.242
+# ssxy198301249450.576
+# mean_x76274.06
+# mean_y115100.08
+# n        198
+# b_1      1
+# b_0  38826
+# ssxx135347053392.7256
+# ssxy199819992781.3408
+# mean_x76274.06
+# mean_y115100.08
+# n        199
+# b_1      1
+# b_0  38826
+# ssxx136238198878.9692
+# ssxy200843592454.8456
+# mean_x76274.06
+# mean_y115100.08
+# n        200
+# b_1      1
+# b_0  38826
+# ssxx137018119559.2128
+# ssxy202030327176.6504
+# mean_x76274.06
+# mean_y115100.08
+# n        201
+# b_1      1
+# b_0  38826
+# ssxx137269819688.0164
+# ssxy202593633266.2152
+# mean_x76274.06
+# mean_y115100.08
+# n        202
+# b_1      1
+# b_0  38826
+# ssxx137899380979.94
+# ssxy203657822401.2799
+# mean_x76274.06
+# mean_y115100.08
+# n        203
+# b_1      1
+# b_0  38826
+# ssxx138546425001.3836
+# ssxy204365788690.1647
+# mean_x76274.06
+# mean_y115100.08
+# n        204
+# b_1      1
+# b_0  38826
+# ssxx138849291498.7472
+# ssxy204872306143.7095
+# mean_x76274.06
+# mean_y115100.08
+# n        205
+# b_1      1
+# b_0  38826
+# ssxx139174014061.1508
+# ssxy205385572954.2943
+# mean_x76274.06
+# mean_y115100.08
+# n        206
+# b_1      1
+# b_0  38826
+# ssxx139640792678.7544
+# ssxy206150977143.3192
+# mean_x76274.06
+# mean_y115100.08
+# n        207
+# b_1      1
+# b_0  38826
+# ssxx140425972482.278
+# ssxy206870308016.264
+# mean_x76274.06
+# mean_y115100.08
+# n        208
+# b_1      1
+# b_0  38826
+# ssxx140901738443.7216
+# ssxy207447129687.9287
+# mean_x76274.06
+# mean_y115100.08
+# n        209
+# b_1      1
+# b_0  38826
+# ssxx141045571931.8852
+# ssxy207800985882.6736
+# mean_x76274.06
+# mean_y115100.08
+# n        210
+# b_1      1
+# b_0  38826
+# ssxx141164797803.1688
+# ssxy207946723450.0183
+# mean_x76274.06
+# mean_y115100.08
+# n        211
+# b_1      1
+# b_0  38826
+# ssxx141349922671.8924
+# ssxy208117276500.6032
+# mean_x76274.06
+# mean_y115100.08
+# n        212
+# b_1      1
+# b_0  38826
+# ssxx141471916022.296
+# ssxy208365448837.348
+# mean_x76274.06
+# mean_y115100.08
+# n        213
+# b_1      1
+# b_0  38826
+# ssxx141636090528.8596
+# ssxy208597622509.5928
+# mean_x76274.06
+# mean_y115100.08
+# n        214
+# b_1      1
+# b_0  38826
+# ssxx141681370777.3432
+# ssxy208762612870.0576
+# mean_x76274.06
+# mean_y115100.08
+# n        215
+# b_1      1
+# b_0  38826
+# ssxx141925950975.0268
+# ssxy209022504020.2624
+# mean_x76274.06
+# mean_y115100.08
+# n        216
+# b_1      1
+# b_0  38826
+# ssxx141998900680.9504
+# ssxy209173117755.5872
+# mean_x76274.06
+# mean_y115100.08
+# n        217
+# b_1      1
+# b_0  38826
+# ssxx141999022523.834
+# ssxy209175127670.992
+# mean_x76274.06
+# mean_y115100.08
+# n        218
+# b_1      1
+# b_0  38826
+# ssxx142045385821.9176
+# ssxy209229267051.7768
+# mean_x76274.06
+# mean_y115100.08
+# n        219
+# b_1      1
+# b_0  38826
+# ssxx142254826342.5612
+# ssxy209587929272.5216
+# mean_x76274.06
+# mean_y115100.08
+# n        220
+# b_1      1
+# b_0  38826
+# ssxx142410952866.9648
+# ssxy209696262442.3264
+# mean_x76274.06
+# mean_y115100.08
+# n        221
+# b_1      1
+# b_0  38826
+# ssxx142413396023.5284
+# ssxy209715167778.0712
+# mean_x76274.06
+# mean_y115100.08
+# n        222
+# b_1      1
+# b_0  38826
+# ssxx142416507507.852
+# ssxy209694069150.616
+# mean_x76274.06
+# mean_y115100.08
+# n        223
+# b_1      1
+# b_0  38826
+# ssxx142778879088.1756
+# ssxy210006147841.1408
+# mean_x76274.06
+# mean_y115100.08
+# n        224
+# b_1      1
+# b_0  38826
+# ssxx142807834894.8992
+# ssxy209992082180.7856
+# mean_x76274.06
+# mean_y115100.08
+# n        225
+# b_1      1
+# b_0  38826
+# ssxx142932381834.1028
+# ssxy210072848427.8104
+# mean_x76274.06
+# mean_y115100.08
+# n        226
+# b_1      1
+# b_0  38826
+# ssxx142955334940.1864
+# ssxy210105785757.0352
+# mean_x76274.06
+# mean_y115100.08
+# n        227
+# b_1      1
+# b_0  38826
+# ssxx142973729946.51
+# ssxy210092545456.14
+# mean_x76274.06
+# mean_y115100.08
+# n        228
+# b_1      1
+# b_0  38826
+# ssxx142976101361.7136
+# ssxy210093028874.1048
+# mean_x76274.06
+# mean_y115100.08
+# n        229
+# b_1      1
+# b_0  38826
+# ssxx142994547871.3172
+# ssxy210113932003.4896
+# mean_x76274.06
+# mean_y115100.08
+# n        230
+# b_1      1
+# b_0  38826
+# ssxx143022058525.7208
+# ssxy210112490031.5944
+# mean_x76274.06
+# mean_y115100.08
+# n        231
+# b_1      1
+# b_0  38826
+# ssxx143072396699.3244
+# ssxy210129041959.0192
+# mean_x76274.06
+# mean_y115100.08
+# n        232
+# b_1      1
+# b_0  38826
+# ssxx143086146408.288
+# ssxy210091082845.444
+# mean_x76274.06
+# mean_y115100.08
+# n        233
+# b_1      1
+# b_0  38826
+# ssxx143125295706.4516
+# ssxy210124882334.7688
+# mean_x76274.06
+# mean_y115100.08
+# n        234
+# b_1      1
+# b_0  38826
+# ssxx143459415353.9752
+# ssxy210431784275.0536
+# mean_x76274.06
+# mean_y115100.08
+# n        235
+# b_1      1
+# b_0  38826
+# ssxx143585369736.2188
+# ssxy210604538092.6384
+# mean_x76274.06
+# mean_y115100.08
+# n        236
+# b_1      1
+# b_0  38826
+# ssxx143797390709.9024
+# ssxy210761955250.1032
+# mean_x76274.06
+# mean_y115100.08
+# n        237
+# b_1      1
+# b_0  38826
+# ssxx143869622691.026
+# ssxy210896195327.488
+# mean_x76274.06
+# mean_y115100.08
+# n        238
+# b_1      1
+# b_0  38826
+# ssxx143934247247.3496
+# ssxy211052367171.7528
+# mean_x76274.06
+# mean_y115100.08
+# n        239
+# b_1      1
+# b_0  38826
+# ssxx144121935603.3532
+# ssxy211277730088.7576
+# mean_x76274.06
+# mean_y115100.08
+# n        240
+# b_1      1
+# b_0  38826
+# ssxx144387786671.7568
+# ssxy211623426122.2424
+# mean_x76274.06
+# mean_y115100.08
+# n        241
+# b_1      1
+# b_0  38826
+# ssxx144671538675.3604
+# ssxy212146258022.3672
+# mean_x76274.06
+# mean_y115100.08
+# n        242
+# b_1      1
+# b_0  38826
+# ssxx144855926286.884
+# ssxy212464588026.472
+# mean_x76274.06
+# mean_y115100.08
+# n        243
+# b_1      1
+# b_0  38826
+# ssxx145099097251.6076
+# ssxy212929067875.7968
+# mean_x76274.06
+# mean_y115100.08
+# n        244
+# b_1      1
+# b_0  38826
+# ssxx145635294808.8912
+# ssxy213692308961.6616
+# mean_x76274.06
+# mean_y115100.08
+# n        245
+# b_1      1
+# b_0  38826
+# ssxx145848511460.6548
+# ssxy214276633626.4864
+# mean_x76274.06
+# mean_y115100.08
+# n        246
+# b_1      1
+# b_0  38826
+# ssxx145987207776.4184
+# ssxy214702604604.1312
+# mean_x76274.06
+# mean_y115100.08
+# n        247
+# b_1      1
+# b_0  38826
+# ssxx146177508146.022
+# ssxy215062996308.036
+# mean_x76274.06
+# mean_y115100.08
+# n        248
+# b_1      1
+# b_0  38826
+# ssxx146379629528.9856
+# ssxy215706098451.5808
+# mean_x76274.06
+# mean_y115100.08
+# n        249
+# b_1      1
+# b_0  38826
+# ssxx146841876948.9892
+# ssxy216662994561.1656
+# mean_x76274.06
+# mean_y115100.08
+# n        250
+# b_1      1
+# b_0  38826
+# ssxx147246970662.7528
+# ssxy217302164184.5904
+# mean_x76274.06
+# mean_y115100.08
+# n        251
+# b_1      1
+# b_0  38826
+# ssxx147874770792.0364
+# ssxy218096410422.1752
+# mean_x76274.06
+# mean_y115100.08
+# n        252
+# b_1      1
+# b_0  38826
+# ssxx148712117288.6
+# ssxy219364714187.42
+# mean_x76274.06
+# mean_y115100.08
+# n        253
+# b_1      1
+# b_0  38826
+# ssxx149389935389.4036
+# ssxy220110430891.0448
+# mean_x76274.06
+# mean_y115100.08
+# n        254
+# b_1      1
+# b_0  38826
+# ssxx150917880619.7272
+# ssxy221659991523.4096
+# mean_x76274.06
+# mean_y115100.08
+# n        255
+# b_1      1
+# b_0  38826
+# ssxx152112892232.4508
+# ssxy222838685905.0744
+# mean_x76274.06
+# mean_y115100.08
+# n        256
+# b_1      1
+# b_0  38826
+# ssxx153076370107.6545
+# ssxy224049272121.8192
+# mean_x76274.06
+# mean_y115100.08
+# n        257
+# b_1      1
+# b_0  38826
+# ssxx153824991145.338
+# ssxy225279800848.5041
+# mean_x76274.06
+# mean_y115100.08
+# n        258
+# b_1      1
+# b_0  38826
+# ssxx155126536745.1017
+# ssxy226896658182.3289
+# mean_x76274.06
+# mean_y115100.08
+# n        259
+# b_1      1
+# b_0  38826
+# ssxx156201126772.3853
+# ssxy228397727583.3937
+# mean_x76274.06
+# mean_y115100.08
+# n        260
+# b_1      1
+# b_0  38826
+# ssxx157789702438.5489
+# ssxy230084828808.0985
+# mean_x76274.06
+# mean_y115100.08
+# n        261
+# b_1      1
+# b_0  38826
+# ssxx159405818015.4325
+# ssxy231920038703.9633
+# mean_x76274.06
+# mean_y115100.08
+# n        262
+# b_1      1
+# b_0  38826
+# ssxx160375264775.1161
+# ssxy233946332052.3481
+# mean_x76274.06
+# mean_y115100.08
+# n        263
+# b_1      1
+# b_0  38826
+# ssxx161439325260.7197
+# ssxy235851757997.9728
+# mean_x76274.06
+# mean_y115100.08
+# n        264
+# b_1      1
+# b_0  38826
+# ssxx162566736160.4833
+# ssxy237722427370.0376
+# mean_x76274.06
+# mean_y115100.08
+# n        265
+# b_1      1
+# b_0  38826
+# ssxx164341162481.6069
+# ssxy240019990059.5424
+# mean_x76274.06
+# mean_y115100.08
+# n        266
+# b_1      1
+# b_0  38826
+# ssxx165955027589.8505
+# ssxy242581855402.4472
+# mean_x76274.06
+# mean_y115100.08
+# n        267
+# b_1      1
+# b_0  38826
+# ssxx167526193877.2941
+# ssxy245095809300.032
+# mean_x76274.06
+# mean_y115100.08
+# n        268
+# b_1      1
+# b_0  38826
+# ssxx169576014069.2977
+# ssxy247924312279.5968
+# mean_x76274.06
+# mean_y115100.08
+# n        269
+# b_1      1
+# b_0  38826
+# ssxx171617331408.5813
+# ssxy250929292984.5216
+# mean_x76274.06
+# mean_y115100.08
+# n        270
+# b_1      1
+# b_0  38826
+# ssxx174274830823.4649
+# ssxy253856505886.4664
+# mean_x76274.06
+# mean_y115100.08
+# n        271
+# b_1      1
+# b_0  38826
+# ssxx175958779195.1485
+# ssxy256692250201.3512
+# mean_x76274.06
+# mean_y115100.08
+# n        272
+# b_1      1
+# b_0  38826
+# ssxx179307246207.2321
+# ssxy260814557271.736
+# mean_x76274.06
+# mean_y115100.08
+# n        273
+# b_1      1
+# b_0  38826
+# ssxx180776277191.8756
+# ssxy263422003963.7008
+# mean_x76274.06
+# mean_y115100.08
+# n        274
+# b_1      1
+# b_0  38826
+# ssxx182873453721.4793
+# ssxy267040166919.6256
+# mean_x76274.06
+# mean_y115100.08
+# n        275
+# b_1      1
+# b_0  38826
+# ssxx185540963427.7228
+# ssxy270290832483.4504
+# mean_x76274.06
+# mean_y115100.08
+# n        276
+# b_1      1
+# b_0  38826
+# ssxx189063734914.3665
+# ssxy274740814411.7152
+# mean_x76274.06
+# mean_y115100.08
+# n        277
+# b_1      1
+# b_0  38826
+# ssxx190900623652.2901
+# ssxy277706092464.78
+# mean_x76274.06
+# mean_y115100.08
+# n        278
+# b_1      1
+# b_0  38826
+# ssxx193444609443.7337
+# ssxy281864646144.8048
+# mean_x76274.06
+# mean_y115100.08
+# n        279
+# b_1      1
+# b_0  38826
+# ssxx196381050662.0573
+# ssxy285835769899.7096
+# mean_x76274.06
+# mean_y115100.08
+# n        280
+# b_1      1
+# b_0  38826
+# ssxx199940001152.2209
+# ssxy290576045922.6144
+# mean_x76274.06
+# mean_y115100.08
+# n        281
+# b_1      1
+# b_0  38826
+# ssxx202636200546.2245
+# ssxy294668505914.7192
+# mean_x76274.06
+# mean_y115100.08
+# n        282
+# b_1      1
+# b_0  38826
+# ssxx205503689521.3481
+# ssxy298753536067.644
+# mean_x76274.06
+# mean_y115100.08
+# n        283
+# b_1      1
+# b_0  38826
+# ssxx208198227573.2717
+# ssxy303762588898.1088
+# mean_x76274.06
+# mean_y115100.08
+# n        284
+# b_1      1
+# b_0  38826
+# ssxx211268378205.1953
+# ssxy308377539669.0536
+# mean_x76274.06
+# mean_y115100.08
+# n        285
+# b_1      1
+# b_0  38826
+# ssxx215763134009.0389
+# ssxy314263837394.6784
+# mean_x76274.06
+# mean_y115100.08
+# n        286
+# b_1      1
+# b_0  38826
+# ssxx220058748825.1225
+# ssxy320505295867.6032
+# mean_x76274.06
+# mean_y115100.08
+# n        287
+# b_1      1
+# b_0  38826
+# ssxx223800877413.3661
+# ssxy326456255749.908
+# mean_x76274.06
+# mean_y115100.08
+# n        288
+# b_1      1
+# b_0  38826
+# ssxx227796753196.8097
+# ssxy332786584143.2929
+# mean_x76274.06
+# mean_y115100.08
+# n        289
+# b_1      1
+# b_0  38826
+# ssxx232084637662.9733
+# ssxy338892180472.2777
+# mean_x76274.06
+# mean_y115100.08
+# n        290
+# b_1      1
+# b_0  38826
+# ssxx236145505640.9769
+# ssxy345242875444.8024
+# mean_x76274.06
+# mean_y115100.08
+# n        291
+# b_1      1
+# b_0  38826
+# ssxx239944864565.3005
+# ssxy352223110635.0472
+# mean_x76274.06
+# mean_y115100.08
+# n        292
+# b_1      1
+# b_0  38826
+# ssxx244568448414.6641
+# ssxy358458696581.0521
+# mean_x76274.06
+# mean_y115100.08
+# n        293
+# b_1      1
+# b_0  38826
+# ssxx248210322276.9077
+# ssxy365162684059.8769
+# mean_x76274.06
+# mean_y115100.08
+# n        294
+# b_1      1
+# b_0  38826
+# ssxx253634488640.0313
+# ssxy372658299036.4617
+# mean_x76274.06
+# mean_y115100.08
+# n        295
+# b_1      1
+# b_0  38826
+# ssxx257551864050.3549
+# ssxy378555486545.0865
+# mean_x76274.06
+# mean_y115100.08
+# n        296
+# b_1      1
+# b_0  38826
+# ssxx263834794763.5585
+# ssxy386293799236.3313
+# mean_x76274.06
+# mean_y115100.08
+# n        297
+# b_1      1
+# b_0  38826
+# ssxx269189805666.2021
+# ssxy394570657463.7361
+# mean_x76274.06
+# mean_y115100.08
+# n        298
+# b_1      1
+# b_0  38826
+# ssxx275162149353.4857
+# ssxy403334773562.9009
+# mean_x76274.06
+# mean_y115100.08
+# n        299
+# b_1      1
+# b_0  38826
+# ssxx280899596779.9693
+# ssxy411786953964.0657
+# mean_x76274.06
+# mean_y115100.08
+# n        300
+# b_1      1
+# b_0  38826
+# ssxx286616913475.4129
+# ssxy420053181354.6505
+# mean_x76274.06
+# mean_y115100.08
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+quit -sim
+# End time: 13:42:58 on Apr 12,2022, Elapsed time: 0:05:13
+# Errors: 0, Warnings: 5
+# Compile of data_loader.v was successful.
+# Compile of Coefficient_calculator.v was successful.
+# Compile of Error_checker.v was successful.
+# Compile of TB.v was successful.
+# Compile of DP.v was successful.
+# Compile of Counter.v was successful.
+# Compile of control.v was successful.
+# Compile of TB1.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 13:46:44 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+quit -sim
+# End time: 13:47:03 on Apr 12,2022, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 5
+vsim -gui work.mytest
+# vsim -gui work.mytest 
+# Start time: 13:47:15 on Apr 12,2022
+# Loading work.mytest
+# Loading work.DP
+# Loading work.counter
+# Loading work.controller
+# Loading work.Data_loader
+# Loading work.Coefficient_calculator
+# Loading work.Error_checker
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (1) for port 'co'. The port definition is at: C:/intelFPGA/20.1/DP.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1 File: C:/intelFPGA/20.1/TB.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/Counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T1 File: C:/intelFPGA/20.1/DP.v Line: 1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (20) for port 'co'. The port definition is at: C:/intelFPGA/20.1/control.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mytest/CUT1/T2 File: C:/intelFPGA/20.1/DP.v Line: 1
+run -all
+# n        151
+# b_1      0
+# b_0      0
+# ssxx0
+# ssxy0
+# mean_x0
+# mean_y0
+# n        152
+# b_1      0
+# b_0      0
+# ssxx2149156
+# ssxy488178
+# mean_x76274.06
+# mean_y115100.08
+# n        153
+# b_1 597960
+# b_0 922747
+# ssxx5236390941.763599
+# ssxy7767781687.444799
+# mean_x76274.06
+# mean_y115100.08
+# n        154
+# b_1 424732
+# b_0 199229
+# ssxx10702488302.7272
+# ssxy15610458740.7696
+# mean_x76274.06
+# mean_y115100.08
+# n        155
+# b_11003260
+# b_01006632
+# ssxx16169768656.6508
+# ssxy23969871194.3544
+# mean_x76274.06
+# mean_y115100.08
+# n        156
+# b_1 477091
+# b_01017118
+# ssxx20102696551.2144
+# ssxy31112517467.0392
+# mean_x76274.06
+# mean_y115100.08
+# n        157
+# b_1 744916
+# b_0 443023
+# ssxx25066612030.818
+# ssxy38635855320.364
+# mean_x76274.06
+# mean_y115100.08
+# n        158
+# b_1 882946
+# b_0 377487
+# ssxx29327706593.0616
+# ssxy45822277354.9888
+# mean_x76274.06
+# mean_y115100.08
+# n        159
+# b_1 224149
+# b_0  89128
+# ssxx34024349840.9052
+# ssxy52741896403.6936
+# mean_x76274.06
+# mean_y115100.08
+# n        160
+# b_1 187859
+# b_0 450887
+# ssxx39448828480.02879
+# ssxy59937831810.95841
+# mean_x76274.06
+# mean_y115100.08
+# n        161
+# b_11002633
+# b_0 765460
+# ssxx44374209662.7524
+# ssxy67358080899.2432
+# mean_x76274.06
+# mean_y115100.08
+# n        162
+# b_1 705972
+# b_0 255590
+# ssxx48188020609.476
+# ssxy73569078062.108
+# mean_x76274.06
+# mean_y115100.08
+# n        163
+# b_1 866790
+# b_0 293601
+# ssxx53587045910.8396
+# ssxy80017665442.0728
+# mean_x76274.06
+# mean_y115100.08
+# n        164
+# b_1 780668
+# b_0 959447
+# ssxx57227968751.6432
+# ssxy85789438368.51759
+# mean_x76274.06
+# mean_y115100.08
+# n        165
+# b_1 816375
+# b_0 524288
+# ssxx61464033786.84679
+# ssxy92399482268.92239
+# mean_x76274.06
+# mean_y115100.08
+# n        166
+# b_1  87195
+# b_0  55050
+# ssxx65414289529.97039
+# ssxy97995242870.9272
+# mean_x76274.06
+# mean_y115100.08
+# n        167
+# b_1 461978
+# b_0 650117
+# ssxx68949669346.05399
+# ssxy103469286527.492
+# mean_x76274.06
+# mean_y115100.08
+# n        168
+# b_1 479623
+# b_0 865075
+# ssxx72855301870.45758
+# ssxy108731813044.5168
+# mean_x76274.06
+# mean_y115100.08
+# n        169
+# b_1 155872
+# b_0 432537
+# ssxx77835294099.74118
+# ssxy114444948649.5216
+# mean_x76274.06
+# mean_y115100.08
+# n        170
+# b_1 315337
+# b_0 125829
+# ssxx82252765371.42477
+# ssxy119475153419.6264
+# mean_x76274.06
+# mean_y115100.08
+# n        171
+# b_1 389296
+# b_0 560987
+# ssxx84059105472.54837
+# ssxy122464936386.4712
+# mean_x76274.06
+# mean_y115100.08
+# n        172
+# b_1  80896
+# b_0 440401
+# ssxx87818887319.59197
+# ssxy127790879806.376
+# mean_x76274.06
+# mean_y115100.08
+# n        173
+# b_1 135396
+# b_0 713032
+# ssxx90956126161.91556
+# ssxy132535077080.3208
+# mean_x76274.06
+# mean_y115100.08
+# n        174
+# b_1 411480
+# b_0 880804
+# ssxx94577164007.91916
+# ssxy137420273790.3056
+# mean_x76274.06
+# mean_y115100.08
+# n        175
+# b_1 562165
+# b_0 188743
+# ssxx97578785951.36276
+# ssxy141628033955.3904
+# mean_x76274.06
+# mean_y115100.08
+# n        176
+# b_1 135558
+# b_01024983
+# ssxx99718871623.68636
+# ssxy144932465172.0752
+# mean_x76274.06
+# mean_y115100.08
+# n        177
+# b_1 459856
+# b_0 734003
+# ssxx102126055480.25
+# ssxy148852852906.42
+# mean_x76274.06
+# mean_y115100.08
+# n        178
+# b_1  18783
+# b_0 429916
+# ssxx104531767670.0136
+# ssxy152447392955.4248
+# mean_x76274.06
+# mean_y115100.08
+# n        179
+# b_1 627290
+# b_0 629146
+# ssxx106630970657.0571
+# ssxy155741918137.1496
+# mean_x76274.06
+# mean_y115100.08
+# n        180
+# b_1 594602
+# b_0 697303
+# ssxx108640435965.3008
+# ssxy159204677627.1344
+# mean_x76274.06
+# mean_y115100.08
+# n        181
+# b_1 506672
+# b_0 529530
+# ssxx110592843863.6243
+# ssxy162461061225.8392
+# mean_x76274.06
+# mean_y115100.08
+# n        182
+# b_1 363137
+# b_0 555745
+# ssxx112177764361.9479
+# ssxy165097551859.224
+# mean_x76274.06
+# mean_y115100.08
+# n        183
+# b_1  35259
+# b_0 560987
+# ssxx114056125162.7515
+# ssxy168143061342.6288
+# mean_x76274.06
+# mean_y115100.08
+# n        184
+# b_1 112951
+# b_0 964690
+# ssxx115973782098.6751
+# ssxy170919199094.6136
+# mean_x76274.06
+# mean_y115100.08
+# n        185
+# b_1 744046
+# b_0 513802
+# ssxx117495098795.1587
+# ssxy173314636559.8384
+# mean_x76274.06
+# mean_y115100.08
+# n        186
+# b_1 531126
+# b_0 351272
+# ssxx119479182989.3223
+# ssxy176453366846.1832
+# mean_x76274.06
+# mean_y115100.08
+# n        187
+# b_1  85342
+# b_0 456130
+# ssxx120983153604.0459
+# ssxy178837513174.288
+# mean_x76274.06
+# mean_y115100.08
+# n        188
+# b_1 953730
+# b_0 461373
+# ssxx122766362655.4096
+# ssxy181223106346.1128
+# mean_x76274.06
+# mean_y115100.08
+# n        189
+# b_1 677242
+# b_01030226
+# ssxx124605062201.0132
+# ssxy184022706013.8576
+# mean_x76274.06
+# mean_y115100.08
+# n        190
+# b_1 534689
+# b_0 319815
+# ssxx125580441309.7368
+# ssxy185710684843.2224
+# mean_x76274.06
+# mean_y115100.08
+# n        191
+# b_1  99724
+# b_0 951582
+# ssxx127323592320.8604
+# ssxy188309399410.8872
+# mean_x76274.06
+# mean_y115100.08
+# n        192
+# b_1 719956
+# b_0 377487
+# ssxx128674526756.464
+# ssxy190416569941.092
+# mean_x76274.06
+# mean_y115100.08
+# n        193
+# b_1 940573
+# b_0 167772
+# ssxx130093936902.4676
+# ssxy192275874841.1568
+# mean_x76274.06
+# mean_y115100.08
+# n        194
+# b_1 231909
+# b_0  19661
+# ssxx131143635991.3512
+# ssxy193722430663.9616
+# mean_x76274.06
+# mean_y115100.08
+# n        195
+# b_1 543583
+# b_0 120586
+# ssxx132011707895.9148
+# ssxy194814510802.9664
+# mean_x76274.06
+# mean_y115100.08
+# n        196
+# b_1 134974
+# b_0 117964
+# ssxx132996416061.5184
+# ssxy196534736822.5112
+# mean_x76274.06
+# mean_y115100.08
+# n        197
+# b_1 595457
+# b_0 188744
+# ssxx133917906440.242
+# ssxy198301249450.576
+# mean_x76274.06
+# mean_y115100.08
+# n        198
+# b_1 697198
+# b_0 699924
+# ssxx135347053392.7256
+# ssxy199819992781.3408
+# mean_x76274.06
+# mean_y115100.08
+# n        199
+# b_1 715557
+# b_01022361
+# ssxx136238198878.9692
+# ssxy200843592454.8456
+# mean_x76274.06
+# mean_y115100.08
+# n        200
+# b_1 847898
+# b_0 437780
+# ssxx137018119559.2128
+# ssxy202030327176.6504
+# mean_x76274.06
+# mean_y115100.08
+# n        201
+# b_1 538557
+# b_0 235929
+# ssxx137269819688.0164
+# ssxy202593633266.2152
+# mean_x76274.06
+# mean_y115100.08
+# n        202
+# b_1 416197
+# b_0 962068
+# ssxx137899380979.94
+# ssxy203657822401.2799
+# mean_x76274.06
+# mean_y115100.08
+# n        203
+# b_1 108249
+# b_0 456130
+# ssxx138546425001.3836
+# ssxy204365788690.1647
+# mean_x76274.06
+# mean_y115100.08
+# n        204
+# b_1 837140
+# b_0 901775
+# ssxx138849291498.7472
+# ssxy204872306143.7095
+# mean_x76274.06
+# mean_y115100.08
+# n        205
+# b_1   3159
+# b_0  41943
+# ssxx139174014061.1508
+# ssxy205385572954.2943
+# mean_x76274.06
+# mean_y115100.08
+# n        206
+# b_1 678357
+# b_0 754974
+# ssxx139640792678.7544
+# ssxy206150977143.3192
+# mean_x76274.06
+# mean_y115100.08
+# n        207
+# b_1 376605
+# b_0 437780
+# ssxx140425972482.278
+# ssxy206870308016.264
+# mean_x76274.06
+# mean_y115100.08
+# n        208
+# b_1 430075
+# b_0 581959
+# ssxx140901738443.7216
+# ssxy207447129687.9287
+# mean_x76274.06
+# mean_y115100.08
+# n        209
+# b_1 308697
+# b_0 634388
+# ssxx141045571931.8852
+# ssxy207800985882.6736
+# mean_x76274.06
+# mean_y115100.08
+# n        210
+# b_1 694246
+# b_0 980418
+# ssxx141164797803.1688
+# ssxy207946723450.0183
+# mean_x76274.06
+# mean_y115100.08
+# n        211
+# b_1 744799
+# b_0 875561
+# ssxx141349922671.8924
+# ssxy208117276500.6032
+# mean_x76274.06
+# mean_y115100.08
+# n        212
+# b_1 558164
+# b_0 243793
+# ssxx141471916022.296
+# ssxy208365448837.348
+# mean_x76274.06
+# mean_y115100.08
+# n        213
+# b_1 323941
+# b_0 754974
+# ssxx141636090528.8596
+# ssxy208597622509.5928
+# mean_x76274.06
+# mean_y115100.08
+# n        214
+# b_1 314886
+# b_0 623902
+# ssxx141681370777.3432
+# ssxy208762612870.0576
+# mean_x76274.06
+# mean_y115100.08
+# n        215
+# b_1 753078
+# b_0 283115
+# ssxx141925950975.0268
+# ssxy209022504020.2624
+# mean_x76274.06
+# mean_y115100.08
+# n        216
+# b_1 541042
+# b_0  78643
+# ssxx141998900680.9504
+# ssxy209173117755.5872
+# mean_x76274.06
+# mean_y115100.08
+# n        217
+# b_1 122591
+# b_0 844103
+# ssxx141999022523.834
+# ssxy209175127670.992
+# mean_x76274.06
+# mean_y115100.08
+# n        218
+# b_1 251458
+# b_0 723517
+# ssxx142045385821.9176
+# ssxy209229267051.7768
+# mean_x76274.06
+# mean_y115100.08
+# n        219
+# b_1 667623
+# b_0 891289
+# ssxx142254826342.5612
+# ssxy209587929272.5216
+# mean_x76274.06
+# mean_y115100.08
+# n        220
+# b_1 728971
+# b_0 432537
+# ssxx142410952866.9648
+# ssxy209696262442.3264
+# mean_x76274.06
+# mean_y115100.08
+# n        221
+# b_1 228916
+# b_0 547880
+# ssxx142413396023.5284
+# ssxy209715167778.0712
+# mean_x76274.06
+# mean_y115100.08
+# n        222
+# b_1 387796
+# b_0 754974
+# ssxx142416507507.852
+# ssxy209694069150.616
+# mean_x76274.06
+# mean_y115100.08
+# n        223
+# b_1  66782
+# b_0 964689
+# ssxx142778879088.1756
+# ssxy210006147841.1408
+# mean_x76274.06
+# mean_y115100.08
+# n        224
+# b_1 865108
+# b_0 880804
+# ssxx142807834894.8992
+# ssxy209992082180.7856
+# mean_x76274.06
+# mean_y115100.08
+# n        225
+# b_1 879034
+# b_0 838860
+# ssxx142932381834.1028
+# ssxy210072848427.8104
+# mean_x76274.06
+# mean_y115100.08
+# n        226
+# b_1 264380
+# b_0 781189
+# ssxx142955334940.1864
+# ssxy210105785757.0352
+# mean_x76274.06
+# mean_y115100.08
+# n        227
+# b_1 876260
+# b_0 713031
+# ssxx142973729946.51
+# ssxy210092545456.14
+# mean_x76274.06
+# mean_y115100.08
+# n        228
+# b_1 589695
+# b_0 461373
+# ssxx142976101361.7136
+# ssxy210093028874.1048
+# mean_x76274.06
+# mean_y115100.08
+# n        229
+# b_1 628922
+# b_0 998768
+# ssxx142994547871.3172
+# ssxy210113932003.4896
+# mean_x76274.06
+# mean_y115100.08
+# n        230
+# b_1 641821
+# b_0 948961
+# ssxx143022058525.7208
+# ssxy210112490031.5944
+# mean_x76274.06
+# mean_y115100.08
+# n        231
+# b_1 509993
+# b_0 416809
+# ssxx143072396699.3244
+# ssxy210129041959.0192
+# mean_x76274.06
+# mean_y115100.08
+# n        232
+# b_1 352064
+# b_0 720896
+# ssxx143086146408.288
+# ssxy210091082845.444
+# mean_x76274.06
+# mean_y115100.08
+# n        233
+# b_1 565608
+# b_0 985661
+# ssxx143125295706.4516
+# ssxy210124882334.7688
+# mean_x76274.06
+# mean_y115100.08
+# n        234
+# b_1 791706
+# b_0 576716
+# ssxx143459415353.9752
+# ssxy210431784275.0536
+# mean_x76274.06
+# mean_y115100.08
+# n        235
+# b_11026556
+# b_0 823132
+# ssxx143585369736.2188
+# ssxy210604538092.6384
+# mean_x76274.06
+# mean_y115100.08
+# n        236
+# b_1 244189
+# b_0 346030
+# ssxx143797390709.9024
+# ssxy210761955250.1032
+# mean_x76274.06
+# mean_y115100.08
+# n        237
+# b_1 205218
+# b_0 330301
+# ssxx143869622691.026
+# ssxy210896195327.488
+# mean_x76274.06
+# mean_y115100.08
+# n        238
+# b_1 361202
+# b_0 524288
+# ssxx143934247247.3496
+# ssxy211052367171.7528
+# mean_x76274.06
+# mean_y115100.08
+# n        239
+# b_1 952101
+# b_0  10485
+# ssxx144121935603.3532
+# ssxy211277730088.7576
+# mean_x76274.06
+# mean_y115100.08
+# n        240
+# b_1 632732
+# b_0 260833
+# ssxx144387786671.7568
+# ssxy211623426122.2424
+# mean_x76274.06
+# mean_y115100.08
+# n        241
+# b_1 583055
+# b_01027604
+# ssxx144671538675.3604
+# ssxy212146258022.3672
+# mean_x76274.06
+# mean_y115100.08
+# n        242
+# b_1  69699
+# b_0 159907
+# ssxx144855926286.884
+# ssxy212464588026.472
+# mean_x76274.06
+# mean_y115100.08
+# n        243
+# b_1 657389
+# b_0 901775
+# ssxx145099097251.6076
+# ssxy212929067875.7968
+# mean_x76274.06
+# mean_y115100.08
+# n        244
+# b_1 717154
+# b_0 165150
+# ssxx145635294808.8912
+# ssxy213692308961.6616
+# mean_x76274.06
+# mean_y115100.08
+# n        245
+# b_1 294231
+# b_0 676331
+# ssxx145848511460.6548
+# ssxy214276633626.4864
+# mean_x76274.06
+# mean_y115100.08
+# n        246
+# b_1  58329
+# b_0 990904
+# ssxx145987207776.4184
+# ssxy214702604604.1312
+# mean_x76274.06
+# mean_y115100.08
+# n        247
+# b_1 427072
+# b_0 692060
+# ssxx146177508146.022
+# ssxy215062996308.036
+# mean_x76274.06
+# mean_y115100.08
+# n        248
+# b_1 246227
+# b_0  62914
+# ssxx146379629528.9856
+# ssxy215706098451.5808
+# mean_x76274.06
+# mean_y115100.08
+# n        249
+# b_1 729697
+# b_0 927989
+# ssxx146841876948.9892
+# ssxy216662994561.1656
+# mean_x76274.06
+# mean_y115100.08
+# n        250
+# b_1 471349
+# b_0 490209
+# ssxx147246970662.7528
+# ssxy217302164184.5904
+# mean_x76274.06
+# mean_y115100.08
+# n        251
+# b_11020121
+# b_0 899154
+# ssxx147874770792.0364
+# ssxy218096410422.1752
+# mean_x76274.06
+# mean_y115100.08
+# n        252
+# b_1 887178
+# b_0 863764
+# ssxx148712117288.6
+# ssxy219364714187.42
+# mean_x76274.06
+# mean_y115100.08
+# n        253
+# b_1 663449
+# b_0 865075
+# ssxx149389935389.4036
+# ssxy220110430891.0448
+# mean_x76274.06
+# mean_y115100.08
+# n        254
+# b_1 454853
+# b_0 637009
+# ssxx150917880619.7272
+# ssxy221659991523.4096
+# mean_x76274.06
+# mean_y115100.08
+# n        255
+# b_1 882756
+# b_0 144179
+# ssxx152112892232.4508
+# ssxy222838685905.0744
+# mean_x76274.06
+# mean_y115100.08
+# n        256
+# b_1 196699
+# b_0 167772
+# ssxx153076370107.6545
+# ssxy224049272121.8192
+# mean_x76274.06
+# mean_y115100.08
+# n        257
+# b_11027245
+# b_0 975175
+# ssxx153824991145.338
+# ssxy225279800848.5041
+# mean_x76274.06
+# mean_y115100.08
+# n        258
+# b_1 249510
+# b_0  40632
+# ssxx155126536745.1017
+# ssxy226896658182.3289
+# mean_x76274.06
+# mean_y115100.08
+# n        259
+# b_1 814791
+# b_0 660602
+# ssxx156201126772.3853
+# ssxy228397727583.3937
+# mean_x76274.06
+# mean_y115100.08
+# n        260
+# b_1  89778
+# b_0 180879
+# ssxx157789702438.5489
+# ssxy230084828808.0985
+# mean_x76274.06
+# mean_y115100.08
+# n        261
+# b_1 710415
+# b_0 629145
+# ssxx159405818015.4325
+# ssxy231920038703.9633
+# mean_x76274.06
+# mean_y115100.08
+# n        262
+# b_1 983880
+# b_0 369623
+# ssxx160375264775.1161
+# ssxy233946332052.3481
+# mean_x76274.06
+# mean_y115100.08
+# n        263
+# b_1 214200
+# b_0 833618
+# ssxx161439325260.7197
+# ssxy235851757997.9728
+# mean_x76274.06
+# mean_y115100.08
+# n        264
+# b_1 525221
+# b_01006633
+# ssxx162566736160.4833
+# ssxy237722427370.0376
+# mean_x76274.06
+# mean_y115100.08
+# n        265
+# b_1 204256
+# b_0 941097
+# ssxx164341162481.6069
+# ssxy240019990059.5424
+# mean_x76274.06
+# mean_y115100.08
+# n        266
+# b_1 101587
+# b_0 671088
+# ssxx165955027589.8505
+# ssxy242581855402.4472
+# mean_x76274.06
+# mean_y115100.08
+# n        267
+# b_1 178800
+# b_0 146800
+# ssxx167526193877.2941
+# ssxy245095809300.032
+# mean_x76274.06
+# mean_y115100.08
+# n        268
+# b_1 576897
+# b_01006633
+# ssxx169576014069.2977
+# ssxy247924312279.5968
+# mean_x76274.06
+# mean_y115100.08
+# n        269
+# b_1 129351
+# b_0 490209
+# ssxx171617331408.5813
+# ssxy250929292984.5216
+# mean_x76274.06
+# mean_y115100.08
+# n        270
+# b_1 395506
+# b_0 513802
+# ssxx174274830823.4649
+# ssxy253856505886.4664
+# mean_x76274.06
+# mean_y115100.08
+# n        271
+# b_11027080
+# b_0 597688
+# ssxx175958779195.1485
+# ssxy256692250201.3512
+# mean_x76274.06
+# mean_y115100.08
+# n        272
+# b_1 375283
+# b_0 833618
+# ssxx179307246207.2321
+# ssxy260814557271.736
+# mean_x76274.06
+# mean_y115100.08
+# n        273
+# b_1 508326
+# b_0 760217
+# ssxx180776277191.8756
+# ssxy263422003963.7008
+# mean_x76274.06
+# mean_y115100.08
+# n        274
+# b_1 788619
+# b_0 456130
+# ssxx182873453721.4793
+# ssxy267040166919.6256
+# mean_x76274.06
+# mean_y115100.08
+# n        275
+# b_11026559
+# b_0 925368
+# ssxx185540963427.7228
+# ssxy270290832483.4504
+# mean_x76274.06
+# mean_y115100.08
+# n        276
+# b_1 135255
+# b_0 751042
+# ssxx189063734914.3665
+# ssxy274740814411.7152
+# mean_x76274.06
+# mean_y115100.08
+# n        277
+# b_1 807536
+# b_0 639631
+# ssxx190900623652.2901
+# ssxy277706092464.78
+# mean_x76274.06
+# mean_y115100.08
+# n        278
+# b_1 784264
+# b_0  10485
+# ssxx193444609443.7337
+# ssxy281864646144.8048
+# mean_x76274.06
+# mean_y115100.08
+# n        279
+# b_1 110137
+# b_0 492830
+# ssxx196381050662.0573
+# ssxy285835769899.7096
+# mean_x76274.06
+# mean_y115100.08
+# n        280
+# b_1 115743
+# b_0 146800
+# ssxx199940001152.2209
+# ssxy290576045922.6144
+# mean_x76274.06
+# mean_y115100.08
+# n        281
+# b_1 962896
+# b_0 262144
+# ssxx202636200546.2245
+# ssxy294668505914.7192
+# mean_x76274.06
+# mean_y115100.08
+# n        282
+# b_1 116138
+# b_0 110100
+# ssxx205503689521.3481
+# ssxy298753536067.644
+# mean_x76274.06
+# mean_y115100.08
+# n        283
+# b_1  22652
+# b_0 104857
+# ssxx208198227573.2717
+# ssxy303762588898.1088
+# mean_x76274.06
+# mean_y115100.08
+# n        284
+# b_1 350941
+# b_0 167772
+# ssxx211268378205.1953
+# ssxy308377539669.0536
+# mean_x76274.06
+# mean_y115100.08
+# n        285
+# b_1 218605
+# b_0 623902
+# ssxx215763134009.0389
+# ssxy314263837394.6784
+# mean_x76274.06
+# mean_y115100.08
+# n        286
+# b_1 266076
+# b_0 115343
+# ssxx220058748825.1225
+# ssxy320505295867.6032
+# mean_x76274.06
+# mean_y115100.08
+# n        287
+# b_1 221411
+# b_0 125828
+# ssxx223800877413.3661
+# ssxy326456255749.908
+# mean_x76274.06
+# mean_y115100.08
+# n        288
+# b_1  37766
+# b_0 304087
+# ssxx227796753196.8097
+# ssxy332786584143.2929
+# mean_x76274.06
+# mean_y115100.08
+# n        289
+# b_1 797892
+# b_0 796918
+# ssxx232084637662.9733
+# ssxy338892180472.2777
+# mean_x76274.06
+# mean_y115100.08
+# n        290
+# b_1 168149
+# b_0 713031
+# ssxx236145505640.9769
+# ssxy345242875444.8024
+# mean_x76274.06
+# mean_y115100.08
+# n        291
+# b_1 173943
+# b_0 450888
+# ssxx239944864565.3005
+# ssxy352223110635.0472
+# mean_x76274.06
+# mean_y115100.08
+# n        292
+# b_1 821327
+# b_0 262144
+# ssxx244568448414.6641
+# ssxy358458696581.0521
+# mean_x76274.06
+# mean_y115100.08
+# n        293
+# b_1  44896
+# b_0 201850
+# ssxx248210322276.9077
+# ssxy365162684059.8769
+# mean_x76274.06
+# mean_y115100.08
+# n        294
+# b_1 786394
+# b_0 377487
+# ssxx253634488640.0313
+# ssxy372658299036.4617
+# mean_x76274.06
+# mean_y115100.08
+# n        295
+# b_1 534746
+# b_0 990904
+# ssxx257551864050.3549
+# ssxy378555486545.0865
+# mean_x76274.06
+# mean_y115100.08
+# n        296
+# b_1 188351
+# b_0 613417
+# ssxx263834794763.5585
+# ssxy386293799236.3313
+# mean_x76274.06
+# mean_y115100.08
+# n        297
+# b_1 777750
+# b_0 513802
+# ssxx269189805666.2021
+# ssxy394570657463.7361
+# mean_x76274.06
+# mean_y115100.08
+# n        298
+# b_1 510810
+# b_0 120586
+# ssxx275162149353.4857
+# ssxy403334773562.9009
+# mean_x76274.06
+# mean_y115100.08
+# n        299
+# b_1 702882
+# b_0  68157
+# ssxx280899596779.9693
+# ssxy411786953964.0657
+# mean_x76274.06
+# mean_y115100.08
+# n        300
+# b_1 790728
+# b_0 634388
+# ssxx286616913475.4129
+# ssxy420053181354.6505
+# mean_x76274.06
+# mean_y115100.08
+# ** Note: $stop    : C:/intelFPGA/20.1/TB.v(3)
+#    Time: 40300 ns  Iteration: 0  Instance: /mytest
+# Break in Module mytest at C:/intelFPGA/20.1/TB.v line 3
+# End time: 13:48:35 on Apr 12,2022, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 4

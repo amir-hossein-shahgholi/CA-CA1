@@ -1,0 +1,57 @@
+C:/intelFPGA/20.1/TB1.v {1 {vlog -work work -stats=none C:/intelFPGA/20.1/TB1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mytest1
+
+Top level modules:
+	mytest1
+
+} {} {}} C:/intelFPGA/20.1/Coefficient_calculator.v {1 {vlog -work work -stats=none C:/intelFPGA/20.1/Coefficient_calculator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Coefficient_calculator
+
+Top level modules:
+	Coefficient_calculator
+
+} {} {}} C:/intelFPGA/20.1/data_loader.v {1 {vlog -work work -stats=none C:/intelFPGA/20.1/data_loader.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Data_loader
+
+Top level modules:
+	Data_loader
+
+} {} {}} C:/intelFPGA/20.1/Counter.v {1 {vlog -work work -stats=none C:/intelFPGA/20.1/Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/intelFPGA/20.1/DP.v {1 {vlog -work work -stats=none C:/intelFPGA/20.1/DP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DP
+
+Top level modules:
+	DP
+
+} {} {}} C:/intelFPGA/20.1/control.v {1 {vlog -work work -stats=none C:/intelFPGA/20.1/control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/intelFPGA/20.1/TB.v {1 {vlog -work work -stats=none C:/intelFPGA/20.1/TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mytest
+
+Top level modules:
+	mytest
+
+} {} {}} C:/intelFPGA/20.1/Error_checker.v {1 {vlog -work work -stats=none C:/intelFPGA/20.1/Error_checker.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Error_checker
+
+Top level modules:
+	Error_checker
+
+} {} {}}

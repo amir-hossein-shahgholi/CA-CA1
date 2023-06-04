@@ -1,0 +1,5 @@
+`timescale 1ns/1nsmodule mytest1();	reg co =1'b0,start=0, clk=0, rst=0;	wire [19:0] Vect_E, b_1, b_2;
+	wire ready;
+	wire En,incv,incc;	controller CUT1(start,co, clk, rst,En,incv,incc, ready);	initial begin		#50 start = 1;		#50 clk = 1;		#50 clk = 0;		#50 start = 0;		#50 clk = 1;		#50 clk = 0; 		repeat (150) begin			#50 clk = 1;			#50 clk = 0;		end
+		#40 co =1;
+		repeat (150) begin			#50 clk = 1;			#50 clk = 0;		end		$stop;	endendmodule

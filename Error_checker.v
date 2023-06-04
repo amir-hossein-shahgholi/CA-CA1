@@ -1,0 +1,1 @@
+module Error_checker(clk, rst, En, Vect_X, Vect_Y, b_1, b_0, Vect_E);	input clk, rst, En;	input [19:0] Vect_X, Vect_Y;	input [19:0] b_1, b_0;	output reg [19:0] Vect_E;	always @(posedge clk,posedge rst,En)	begin		if(rst) begin			Vect_E <= 0;		end		else if(En) begin			Vect_E= Vect_Y - (Vect_X * b_1) - b_0; 		end	end	endmodule

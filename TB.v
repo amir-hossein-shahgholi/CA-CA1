@@ -1,0 +1,3 @@
+
+`timescale 1ns/1nsmodule mytest();	reg start=0, clk=0, rst=0;	wire [19:0] Vect_E, b_1, b_2,Vect_X, Vect_Y;
+	wire ready, inc_vector,co;	DP CUT1(start, clk, rst,Vect_E, b_1, b_2, ready,Vect_X, Vect_Y, inc_vector,co);	initial begin		#50 start = 1;		#50 clk = 1;		#50 clk = 0;		#50 start = 0;		#50 clk = 1;		#50 clk = 0; 		repeat (400) begin			#50 clk = 1;			#50 clk = 0;		end		$stop;	endendmodule
